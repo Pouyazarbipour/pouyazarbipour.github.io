@@ -12,9 +12,9 @@ Research Assistant at [Tarbiat Modares University](https://modares.ac.ir), worki
 ## Research Interests
   * **Probabilistic Analysis**
   * **Reliability Analysis**
-  * **Reliability-Based Design Optimization**
+  * **Multi-Hazard Risk Analysis**
   * **Risk and Resilience**
   * **Coastal Engineering**
   * **Machine Learning**
 
-Additional topics I am interested in include: Multi-Hazard Risk Analysis and Remote Sensing.
+Additional topics I am interested in include: Reliability-Based Design Optimization and Remote Sensing.
