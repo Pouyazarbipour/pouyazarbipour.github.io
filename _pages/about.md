@@ -18,3 +18,17 @@ Research Assistant at [Tarbiat Modares University](https://modares.ac.ir), worki
   * **Machine Learning**
 
 Additional topics I am interested in include: Reliability-Based Design Optimization and Remote Sensing.
+
+## Online Profiles 
+
+You can find me on the internet:
+
+* [Personal Website](https://pouyazarbipour.github.io/)
+* [Google Scholar](https://scholar.google.com/citations?user=V5aIzssAAAAJ&hl=en&authuser=1)
+* [GitHub](https://github.com/pouyazarbipour)
+* [LinkedIn](https://www.linkedin.com/in/pouya-zarbipour/)
+* [ORCiD](https://orcid.org/0000-0002-8024-9062)
+* [ResearchGate](https://www.researchgate.net/profile/Pouya-Zarbipour)
+* [X](https://x.com/pouyazarbipour)
+
+#### How to reach me: The best way to contact me is through [email](mailto:pouyazarbipour@gmail.com).
