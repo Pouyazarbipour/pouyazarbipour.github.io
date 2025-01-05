@@ -23,7 +23,6 @@ Additional topics I am interested in include: Reliability-Based Design Optimizat
 
 You can find me on the internet:
 
-* [Personal Website](https://pouyazarbipour.github.io/)
 * [Google Scholar](https://scholar.google.com/citations?user=V5aIzssAAAAJ&hl=en&authuser=1)
 * [GitHub](https://github.com/pouyazarbipour)
 * [LinkedIn](https://www.linkedin.com/in/pouya-zarbipour/)
