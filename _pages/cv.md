@@ -13,93 +13,93 @@ You can download the latest version of my CV from this [Link](https://github.com
 [Last update: January 2025]
 
 # Pouya Zarbipour-Lakposhteh
-[Google Scholar](https://scholar.google.com/citations?user=V5aIzssAAAAJ&hl=en&authuser=1) | [LinkedIn](https://www.linkedin.com/in/pouya-zarbipour/) | [Personal Website](https://pouyazarbipour.github.io/) | [Email](mailto:pouyazarbipour@gmail.com)
+[Google Scholar](https://scholar.google.com/citations?user=V5aIzssAAAAJ&hl=en&authuser=1) , [LinkedIn](https://www.linkedin.com/in/pouya-zarbipour/) , [Personal Website](https://pouyazarbipour.github.io/) , [Email](mailto:pouyazarbipour@gmail.com)
 
-Address: Gilan, Iran | Phone: +98 936 969 9972
+Address: Gilan, Iran , Phone: +98 936 969 9972
 
 ## Research Interest
 Reliability Analysis, Coastal Engineering, Risk and Resilience, Machine Learning, Optimization
 
 ## Education
 
-**Tarbiat Modares University (TMU), Tehran, Iran**  | Sep. 2021 – Feb. 2024
-*   MSc in Civil Engineering (coastal, port, and marine structures) | GPA: 15.03 (out of 20)
-*   Thesis Title: Probabilistic Evaluation of Effluent Discharge Performance in Desalination. | [Link](https://parseh.modares.ac.ir/thesis/10008524)
+**Tarbiat Modares University (TMU), Tehran, Iran**  , Sep. 2021 – Feb. 2024
+*   MSc in Civil Engineering (coastal, port, and marine structures) , GPA: 15.03 (out of 20)
+*   Thesis Title: Probabilistic Evaluation of Effluent Discharge Performance in Desalination. , [Link](https://parseh.modares.ac.ir/thesis/10008524)
 *   Supervisor: Prof. Hassan Akbari
 
-**The National University of Skills (NUS), Tehran, Iran** | Sep. 2015 – Feb. 2020
-*   ASc and BSc in Civil Engineering | GPA: 14.94 (out of 20)
+**The National University of Skills (NUS), Tehran, Iran** , Sep. 2015 – Feb. 2020
+*   ASc and BSc in Civil Engineering , GPA: 14.94 (out of 20)
 
 ## Achievements/Awards
 
-*   Ranked 2nd graduates, Iran | 2023
+*   Ranked 2nd graduates, Iran , 2023
     * Awarded for MSc
     * Tarbiat Modares University – Ranked 7th in Iran according to US News.
-*   Governmental Fellowship, Iran | Fall 2021
+*   Governmental Fellowship, Iran , Fall 2021
     * Awarded for MSc
     * Tarbiat Modares University – Ranked 7th in Iran according to US News.
-*  Volunteer, Iran | Feb. 2020 – Jun. 2020
+*  Volunteer, Iran , Feb. 2020 – Jun. 2020
     *  Awarded for COVID-19
     *  Iranian Red Crescent
-*  Governmental Fellowship, Iran | Fall 2015
+*  Governmental Fellowship, Iran , Fall 2015
     * Awarded for ASc and BSc
     * The National University of Skills
 
 ## Teaching, Research And Professional Experiences
 
-**Supervisor and Executive Engineer, Iran** | May 2024 – present
+**Supervisor and Executive Engineer, Iran** , May 2024 – present
 *Iran Construction Engineering Organization (IRCEO)*
     * Supervision of the construction of building structures based on Iran's national building regulations
 
-**Reliability, Risk, Resiliency, and Optimization, RA (Prof. Akbari)** | Sep 2023 – present
+**Reliability, Risk, Resiliency, and Optimization, RA (Prof. Akbari)** , Sep 2023 – present
 *Tarbiat Modares University*
     * Introducing a new RBDO approach for designing optimal berm breakwaters with required performance
     * Investigating resilience in coastal structures, especially berm breakwaters
 
-**Technical Expert of Lab, Civil Computing Laboratory** | Apr 2023 – Feb 2024
+**Technical Expert of Lab, Civil Computing Laboratory** , Apr 2023 – Feb 2024
 *Tarbiat Modares University*
 
-**Numerical Methods in Marine Engineering, TA (Prof. Akbari)** | Spring 2023
+**Numerical Methods in Marine Engineering, TA (Prof. Akbari)** , Spring 2023
 *Tarbiat Modares University*
     * Teaching assistant and Mike zero software training
 
 ## Publications
 
 *   **[J]** Reliability design of seawater desalination outfalls based on a novel probabilistic environmental assessment.
-    *   Published in Ocean Engineering (Q1 and IF: 4.6) | First Author | [DOI](https://doi.org/10.1016/j.oceaneng.2024.119465)
+    *   Published in Ocean Engineering (Q1 and IF: 4.6) , First Author , [DOI](https://doi.org/10.1016/j.oceaneng.2024.119465)
 *   **[J]** Reliability-Based Design Optimization of Berm Breakwaters with Different Reshaping and Dependency Structures.
-    *   Under Review in Coastal Engineering (Q1 and IF: 4.2) | [DOI](https://doi.org/)
+    *   Under Review in Coastal Engineering (Q1 and IF: 4.2) , [DOI](https://doi.org/)
 *   **[J]** Bayesian regression for the prediction of berm breakwaters recession.
-    *   Under Review in Coastal Engineering (Q1 and IF: 4.2) | First Author | [DOI](https://doi.org/)
+    *   Under Review in Coastal Engineering (Q1 and IF: 4.2) , First Author , [DOI](https://doi.org/)
 *   **[J]** Probabilistic Design of Berm Breakwaters Considering Environmental Parameter Correlations.
-    *   Under Review in Ocean Engineering (Q1 and IF: 4.6) | [DOI](https://doi.org/)
+    *   Under Review in Ocean Engineering (Q1 and IF: 4.6) , [DOI](https://doi.org/)
 *   **[J]** Predicting Berm Breakwaters Recession Using Machine Learning.
-    *   In Progress | First Author
+    *   In Progress , First Author
 *   **[C]** Assessment of the Spread of Desalination Plant Effluent Study Area: Saqi Koothar Desalination Plant, Bandar Abbas.
-    * Presented at 1st International Conference on Blue Economy | First Author | [Link](https://en.civilica.com/doc/1994723/)
+    * Presented at 1st International Conference on Blue Economy , First Author , [Link](https://en.civilica.com/doc/1994723/)
 
 
 ## Project
-* **The Persian Gulf Coastline Monitoring** | Dec 2022 – Feb 2023
+* **The Persian Gulf Coastline Monitoring** , Dec 2022 – Feb 2023
     * *GIS and Remote Sensing course, Tarbiat Modares University*
     *  Implemented using ArcGIS Pro, Google Earth Engine and ENVI software
     * Analyzed the Persian Gulf coasts quantitatively and qualitatively and examined the effects of rising and falling water and temperature
-*   **Hydrological Model for Bushehr in Iran**  | Dec 2022 – Jan 2023
+*   **Hydrological Model for Bushehr in Iran**  , Dec 2022 – Jan 2023
     *  *GIS and Remote Sensing course, Tarbiat Modares University*
     *  Analyzed the drainage density map, flow distance, Gravelius and Miller's coefficient, bifurcation coefficient index, slope, direction of slope, accumulation of flow, catchment, and river rank in the basin.
-*   **Monitoring the surface temperature of the Persian Gulf in a 10-year period** | Nov 2022 – Nov 2022
+*   **Monitoring the surface temperature of the Persian Gulf in a 10-year period** , Nov 2022 – Nov 2022
     *   *GIS and Remote Sensing course, Tarbiat Modares University*
     *  Implemented using ArcGIS Pro, Google Earth Engine
     *  Chronological history and spatial analysis of the coasts of the Persian Gulf in a 10-year period
-*   **Design of the Kish Island Breakwater in the Persian Gulf** | Jun 2022 – Jul 2022
+*   **Design of the Kish Island Breakwater in the Persian Gulf** , Jun 2022 – Jul 2022
     * *Design of Conventional Marine Structures course, Tarbiat Modares University*
     * Implemented using PLAXIS 3D, Geo Studio, Microsoft Office, and CEM manual
     * Design of three types of rubble mound, berm and caisson breakwaters
-*   **Design of the Kish Island Pier in the Persian Gulf** | Jun 2022 – Jul 2022
+*   **Design of the Kish Island Pier in the Persian Gulf** , Jun 2022 – Jul 2022
     * *Design of Conventional Marine Structures course, Tarbiat Modares University*
     * Implemented using PLAXIS 3D, SAP2000, Geo Studio, and Microsoft Office
     * Design of two types of the block pier, pile, and deck
-*   **Hydrodynamic model for the Persian Gulf** | Jun 2022 – Jul 2022
+*   **Hydrodynamic model for the Persian Gulf** , Jun 2022 – Jul 2022
     *   *Numerical Methods in Marine Engineering course, Tarbiat Modares University*
     *  Implemented using Mike Zero (SW and HD)
     *  Investigating the changes in Surface elevation, pressure, current speed, etc. in the Persian Gulf
@@ -121,7 +121,7 @@ Reliability Analysis, Coastal Engineering, Risk and Resilience, Machine Learning
 
 ## Test Scores
 
-**TOFEL** | In Progress
+**TOFEL** , In Progress
 * Reading, Listening, Writing, Speaking
 
 ## References
@@ -129,15 +129,15 @@ Reliability Analysis, Coastal Engineering, Risk and Resilience, Machine Learning
 **Dr. Hassan Akbari**
 Associate professor, Faculty of Civil Engineering
 Tarbiat Modares University, Tehran, Iran
-Phone: +98 21 8288 3906 | [Email](akbari.h@modares.ac.ir)
+Phone: +98 21 8288 3906 , [Email](akbari.h@modares.ac.ir)
 
 **Prof. Seyed Ali Akbar Salehi Neyshabouri**
 Professor, Faculty of Civil Engineering
 Tarbiat Modares University, Tehran, Iran
-Phone: +98 21 8288 3316 | [Email](salehi@modares.ac.ir)
+Phone: +98 21 8288 3316 , [Email](salehi@modares.ac.ir)
 
 **Prof. Mehdi Shafieefar**
 Professor, Faculty of Civil Engineering
 Tarbiat Modares University, Tehran, Iran
-Phone: +98 21 8288 3318 | [Email](shafiee@modares.ac.ir)
+Phone: +98 21 8288 3318 , [Email](shafiee@modares.ac.ir)
   
