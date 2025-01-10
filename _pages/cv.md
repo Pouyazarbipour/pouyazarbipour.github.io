@@ -32,36 +32,44 @@ Reliability Analysis, Coastal Engineering, Risk and Resilience, Machine Learning
 
 ## Achievements/Awards
 
-*   Ranked 2nd graduates, Iran , 2023
-    * Awarded for MSc
-    * Tarbiat Modares University – Ranked 7th in Iran according to US News.
-*   Governmental Fellowship, Iran , Fall 2021
-    * Awarded for MSc
-    * Tarbiat Modares University – Ranked 7th in Iran according to US News.
-*  Volunteer, Iran , Feb. 2020 – Jun. 2020
-    *  Awarded for COVID-19
-    *  Iranian Red Crescent
-*  Governmental Fellowship, Iran , Fall 2015
-    * Awarded for ASc and BSc
-    * The National University of Skills
+*Ranked 2nd graduates in marine structures department, Iran*  
+2023
+*Awarded for MSc | Ranked 102nd in the world for civil engineering according to US News.*
+
+*Governmental Fellowship, Iran*  
+Fall 2021
+*Awarded for MSc | Tarbiat Modares University – Ranked 7th in Iran according to US News.*
+
+*Volunteer, Iran*  
+Feb. 2020 – Jun. 2020
+*Awarded for COVID-19|Iranian Red Crescent*
+
+*Governmental Fellowship, Iran*  
+Fall 2015
+*Awarded for ASc and BSc | The National University of Skills*
 
 ## Teaching, Research And Professional Experiences
 
-**Supervisor and Executive Engineer, Iran** , May 2024 – present
+**Supervisor and Executive Engineer, Iran**  
+May 2024 - present
 *Iran Construction Engineering Organization (IRCEO)*
-    * Supervision of the construction of building structures based on Iran's national building regulations
+  * Supervision of the construction of building structures based on Iran's national building regulations
 
-**Reliability, Risk, Resiliency, and Optimization, RA (Prof. Akbari)** , Sep 2023 – present
+**Reliability, Risk, Resilience, and Optimization, RA (Prof. Akbari)**  
+Sep 2023 - present
 *Tarbiat Modares University*
-    * Introducing a new RBDO approach for designing optimal berm breakwaters with required performance
-    * Investigating resilience in coastal structures, especially berm breakwaters
+  * Introducing a new RBDO approach for designing optimal berm breakwaters with required performance
+  * Investigating resilience in coastal structures, especially berm breakwaters
+  * Applying machine learning to coastal structures, particularly to forecast berm breakwater recession
+  
+**Technical Expert of Lab, Civil Computing Laboratory**
+Apr 2023 – Feb 2024
+*Tarbiat Modares University*
 
-**Technical Expert of Lab, Civil Computing Laboratory** , Apr 2023 – Feb 2024
+**Numerical Methods in Marine Engineering, TA (Prof. Akbari)**  
+Spring 2023
 *Tarbiat Modares University*
-
-**Numerical Methods in Marine Engineering, TA (Prof. Akbari)** , Spring 2023
-*Tarbiat Modares University*
-    * Teaching assistant and Mike zero software training
+  * Teaching assistant and Mike zero software training
 
 ## Publications
 
@@ -80,29 +88,40 @@ Reliability Analysis, Coastal Engineering, Risk and Resilience, Machine Learning
 
 
 ## Project
-* **The Persian Gulf Coastline Monitoring** , Dec 2022 – Feb 2023
-    * *GIS and Remote Sensing course, Tarbiat Modares University*
-    *  Implemented using ArcGIS Pro, Google Earth Engine and ENVI software
-    * Analyzed the Persian Gulf coasts quantitatively and qualitatively and examined the effects of rising and falling water and temperature
-*   **Hydrological Model for Bushehr in Iran**  , Dec 2022 – Jan 2023
-    *  *GIS and Remote Sensing course, Tarbiat Modares University*
-    *  Analyzed the drainage density map, flow distance, Gravelius and Miller's coefficient, bifurcation coefficient index, slope, direction of slope, accumulation of flow, catchment, and river rank in the basin.
-*   **Monitoring the surface temperature of the Persian Gulf in a 10-year period** , Nov 2022 – Nov 2022
-    *   *GIS and Remote Sensing course, Tarbiat Modares University*
-    *  Implemented using ArcGIS Pro, Google Earth Engine
-    *  Chronological history and spatial analysis of the coasts of the Persian Gulf in a 10-year period
-*   **Design of the Kish Island Breakwater in the Persian Gulf** , Jun 2022 – Jul 2022
-    * *Design of Conventional Marine Structures course, Tarbiat Modares University*
-    * Implemented using PLAXIS 3D, Geo Studio, Microsoft Office, and CEM manual
-    * Design of three types of rubble mound, berm and caisson breakwaters
-*   **Design of the Kish Island Pier in the Persian Gulf** , Jun 2022 – Jul 2022
-    * *Design of Conventional Marine Structures course, Tarbiat Modares University*
-    * Implemented using PLAXIS 3D, SAP2000, Geo Studio, and Microsoft Office
-    * Design of two types of the block pier, pile, and deck
-*   **Hydrodynamic model for the Persian Gulf** , Jun 2022 – Jul 2022
-    *   *Numerical Methods in Marine Engineering course, Tarbiat Modares University*
-    *  Implemented using Mike Zero (SW and HD)
-    *  Investigating the changes in Surface elevation, pressure, current speed, etc. in the Persian Gulf
+**The Persian Gulf Coastline Monitoring**  
+*GIS and Remote Sensing course, Tarbiat Modares University*  
+Dec 2022 – Feb 2023
+* Implemented using ArcGIS Pro, Google Earth Engine and ENVI software
+* Analyzed the Persian Gulf coasts quantitatively and qualitatively and examined the effects of rising and falling water and temperature
+
+**Geomorphic and Hydrologic analysis for Bushehr in Iran**  
+*GIS and Remote Sensing course, Tarbiat Modares University*  
+Dec 2022 – Jan 2023
+* Analyzed the drainage density map, flow distance, Gravelius and Miller's coefficient, bifurcation coefficient index, slope, direction of slope, accumulation of flow, catchment, and river rank in the basin.
+
+**Monitoring the surface temperature of the Persian Gulf in a 10-year period**  
+*GIS and Remote Sensing course, Tarbiat Modares University*  
+Nov 2022 – Nov 2022
+* Implemented using ArcGIS Pro, Google Earth Engine
+* Chronological history and spatial analysis of the coasts of the Persian Gulf in a 10-year period
+
+**Design of the Kish Island Breakwater in the Persian Gulf**  
+*Design of Conventional Marine Structures course, Tarbiat Modares University*  
+Jun 2022 – Jul 2022
+* Implemented using PLAXIS 3D, Geo Studio, Microsoft Office, and CEM manual
+* Design of three types of rubble mound, berm and caisson breakwaters
+
+**Design of the Kish Island Pier in the Persian Gulf**  
+*Design of Conventional Marine Structures course, Tarbiat Modares University*  
+Jun 2022 – Jul 2022
+* Implemented using PLAXIS 3D, SAP2000, Geo Studio, and Microsoft Office
+* Design of two types of the block pier, pile, and deck
+
+**Hydrodynamic model for the Persian Gulf**  
+*Numerical Methods in Marine Engineering course, Tarbiat Modares University*  
+Jun 2022 – Jul 2022
+* Implemented using Mike Zero (SW and HD)
+* Investigating the changes in Surface elevation, pressure, current speed, etc. in the Persian Gulf
 
 ## Skills
 
