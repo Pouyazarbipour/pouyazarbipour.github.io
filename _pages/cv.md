@@ -151,7 +151,7 @@ Jun 2022 – Jul 2022
 *Phone: +98 21 8288 3316 , [Email](salehi@modares.ac.ir)
 
 **Prof. Mehdi Shafieefar**
-*Professor, Faculty of Civil Engineering
-*Tarbiat Modares University, Tehran, Iran
-*Phone: +98 21 8288 3318 , [Email](shafiee@modares.ac.ir)
+* Professor, Faculty of Civil Engineering
+* Tarbiat Modares University, Tehran, Iran
+* Phone: +98 21 8288 3318 , [Email](shafiee@modares.ac.ir)
   
