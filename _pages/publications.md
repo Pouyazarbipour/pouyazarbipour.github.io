@@ -10,6 +10,7 @@ redirect_from:
 {% include base_path %}
 You can also find my latest articles on my [Google Scholar profile](https://scholar.google.com/citations?user=V5aIzssAAAAJ&hl=en&authuser=1).
 
+**J** represents the Journal and **C** represents the Conference.
 ### **J.** [Reliability design of seawater desalination outfalls based on a novel probabilistic environmental assessment](https://doi.org/10.1016/j.oceaneng.2024.119465)
 
 * Published in Ocean Engineering (Q1 and IF: 4.6)
