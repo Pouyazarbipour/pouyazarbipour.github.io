@@ -46,25 +46,25 @@ Reliability Analysis, Coastal Engineering, Risk and Resilience, Machine Learning
 ## Teaching, Research And Professional Experiences
 
 **Supervisor and Executive Engineer, Iran**  
-May 2024 - present
 *Iran Construction Engineering Organization (IRCEO)*
-  * Supervision of the construction of building structures based on Iran's national building regulations
+May 2024 - present
+* Supervision of the construction of building structures based on Iran's national building regulations
 
 **Reliability, Risk, Resilience, and Optimization, RA (Prof. Akbari)**  
-Sep 2023 - present
 *Tarbiat Modares University*
-  * Introducing a new RBDO approach for designing optimal berm breakwaters with required performance
-  * Investigating resilience in coastal structures, especially berm breakwaters
-  * Applying machine learning to coastal structures, particularly to forecast berm breakwater recession
+Sep 2023 - present
+* Introducing a new RBDO approach for designing optimal berm breakwaters with required performance
+* Investigating resilience in coastal structures, especially berm breakwaters
+* Applying machine learning to coastal structures, particularly to forecast berm breakwater recession
   
 **Technical Expert of Lab, Civil Computing Laboratory**
-Apr 2023 – Feb 2024
 *Tarbiat Modares University*
+Apr 2023 – Feb 2024
 
 **Numerical Methods in Marine Engineering, TA (Prof. Akbari)**  
-Spring 2023
 *Tarbiat Modares University*
-  * Teaching assistant and Mike zero software training
+Spring 2023
+* Teaching assistant and Mike zero software training
 
 ## Publications
 
