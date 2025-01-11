@@ -22,12 +22,12 @@ Reliability Analysis, Coastal Engineering, Risk and Resilience, Machine Learning
 ## Education
 
 **Tarbiat Modares University (TMU), Tehran, Iran**  , Sep. 2021 – Feb. 2024
-*   MSc in Civil Engineering (coastal, port, and marine structures) | GPA: 15.03 (out of 20)
-*   Thesis Title: Probabilistic Evaluation of Effluent Discharge Performance in Desalination. | [Link](https://parseh.modares.ac.ir/thesis/10008524)
-*   Supervisor: Prof. Hassan Akbari
+*MSc in Civil Engineering (coastal, port, and marine structures) | GPA: 15.03 (out of 20)*
+*Thesis Title: Probabilistic Evaluation of Effluent Discharge Performance in Desalination. | [Link](https://parseh.modares.ac.ir/thesis/10008524)*
+*Supervisor: Prof. Hassan Akbari*
 
 **The National University of Skills (NUS), Tehran, Iran** , Sep. 2015 – Feb. 2020
-*   ASc and BSc in Civil Engineering , GPA: 14.94 (out of 20)
+*ASc and BSc in Civil Engineering | GPA: 14.94 (out of 20)*
 
 ## Achievements/Awards
 
