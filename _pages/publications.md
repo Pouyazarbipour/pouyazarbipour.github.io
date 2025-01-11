@@ -12,11 +12,11 @@ You can also find my latest articles on my [Google Scholar profile](https://scho
 
 ### **J.** [Reliability design of seawater desalination outfalls based on a novel probabilistic environmental assessment](https://doi.org/10.1016/j.oceaneng.2024.119465)
 
-Published in Ocean Engineering (Q1 and IF: 4.6)
+* Published in Ocean Engineering (Q1 and IF: 4.6)
 
-excerpt: Implementing safety factors based on an acceptable Pf is a novel approach introduced in this research to control the acceptable hours per year that excess concentration can surpass the environmental criteria. The introduced method can be applied either to design new desalination plants or to evaluate the reliability of existing plants.
+* excerpt: Implementing safety factors based on an acceptable Pf is a novel approach introduced in this research to control the acceptable hours per year that excess concentration can surpass the environmental criteria. The introduced method can be applied either to design new desalination plants or to evaluate the reliability of existing plants.
 
-citation: Zarbipour, P., & Akbari, H. (2024). Reliability design of seawater desalination outfalls based on a novel probabilistic environmental assessment. Ocean Engineering, 313, 119465.
+* citation: Zarbipour, P., & Akbari, H. (2024). Reliability design of seawater desalination outfalls based on a novel probabilistic environmental assessment. Ocean Engineering, 313, 119465.
     
 **[J]** Reliability-Based Design Optimization of Berm Breakwaters with Different Reshaping and Dependency Structures.
     *   Under Review in Coastal Engineering (Q1 and IF: 4.2) , [DOI](https://doi.org/)
