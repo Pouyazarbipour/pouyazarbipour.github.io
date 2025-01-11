@@ -24,7 +24,7 @@ You can also find my latest articles on my [Google Scholar profile](https://scho
 ### **J.** [Bayesian regression for the prediction of berm breakwaters recession](https://doi.org/)
 * Under Review in Coastal Engineering (Q1 and IF: 4.2) 
     
-### **J.** Probabilistic Design of Berm Breakwaters Considering Environmental Parameter Correlations](https://doi.org/)
+### **J.** [Probabilistic Design of Berm Breakwaters Considering Environmental Parameter Correlations](https://doi.org/)
 * Under Review in Ocean Engineering (Q1 and IF: 4.6)
     
 ### **J.** [Predicting Berm Breakwaters Recession Using Machine Learning](https://doi.org/)
