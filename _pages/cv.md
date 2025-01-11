@@ -21,27 +21,33 @@ Reliability Analysis, Coastal Engineering, Risk and Resilience, Machine Learning
 
 ## Education
 
-**Tarbiat Modares University (TMU), Tehran, Iran**  , Sep. 2021 – Feb. 2024
+**Tarbiat Modares University (TMU), Tehran, Iran**
+Sep. 2021 – Feb. 2024
 * MSc in Civil Engineering (coastal, port, and marine structures), GPA: 15.03 (out of 20)
 * Thesis Title: Probabilistic Evaluation of Effluent Discharge Performance in Desalination. [Link](https://parseh.modares.ac.ir/thesis/10008524)
 * Supervisor: Prof. Hassan Akbari
 
-**The National University of Skills (NUS), Tehran, Iran** , Sep. 2015 – Feb. 2020
+**The National University of Skills (NUS), Tehran, Iran**
+Sep. 2015 – Feb. 2020
 * ASc and BSc in Civil Engineering, GPA: 14.94 (out of 20)
 
 ## Achievements/Awards
 
 **Ranked 2nd graduates in marine structures department, Iran** 2023
-*Awarded for MSc | Ranked 102nd in the world for civil engineering according to US News.*
+* Awarded for MSc
+* Ranked 102nd in the world for civil engineering according to US News
 
 **Governmental Fellowship, Iran** Fall 2021
-*Awarded for MSc | Tarbiat Modares University – Ranked 7th in Iran according to US News.*
+* Awarded for MSc
+* Tarbiat Modares University – Ranked 7th in Iran according to US News
 
 **Volunteer, Iran** Feb. 2020 – Jun. 2020
-*Awarded for COVID-19|Iranian Red Crescent*
+* Awarded for COVID-19
+* Iranian Red Crescent
 
 **Governmental Fellowship, Iran**  Fall 2015
-*Awarded for ASc and BSc | The National University of Skills*
+* Awarded for ASc and BSc
+* The National University of Skills
 
 ## Teaching, Research And Professional Experiences
 
