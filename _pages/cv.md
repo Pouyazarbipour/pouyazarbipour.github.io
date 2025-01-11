@@ -10,8 +10,7 @@ redirect_from:
 {% include base_path %}
 You can download the latest version of my CV from this [Link](https://github.com/Pouyazarbipour/pouyazarbipour.github.io/blob/master/cv/CV%20-%20Pouya%20Zarbipour.pdf).
 
-[Last update: January 2025]
-
+#### [Last update: January 2025]
 # Pouya Zarbipour-Lakposhteh
 [Google Scholar](https://scholar.google.com/citations?user=V5aIzssAAAAJ&hl=en&authuser=1) , [LinkedIn](https://www.linkedin.com/in/pouya-zarbipour/) , [Personal Website](https://pouyazarbipour.github.io/) , [Email](mailto:pouyazarbipour@gmail.com)
 
@@ -23,8 +22,8 @@ Reliability Analysis, Coastal Engineering, Risk and Resilience, Machine Learning
 ## Education
 
 **Tarbiat Modares University (TMU), Tehran, Iran**  , Sep. 2021 – Feb. 2024
-*   MSc in Civil Engineering (coastal, port, and marine structures) , GPA: 15.03 (out of 20)
-*   Thesis Title: Probabilistic Evaluation of Effluent Discharge Performance in Desalination. , [Link](https://parseh.modares.ac.ir/thesis/10008524)
+*   MSc in Civil Engineering (coastal, port, and marine structures) | GPA: 15.03 (out of 20)
+*   Thesis Title: Probabilistic Evaluation of Effluent Discharge Performance in Desalination. | [Link](https://parseh.modares.ac.ir/thesis/10008524)
 *   Supervisor: Prof. Hassan Akbari
 
 **The National University of Skills (NUS), Tehran, Iran** , Sep. 2015 – Feb. 2020
