@@ -20,12 +20,18 @@ You can also find my latest articles on my [Google Scholar profile](https://scho
     
 ### **J.** [Reliability-Based Design Optimization of Berm Breakwaters with Different Reshaping and Dependency Structures](https://doi.org/)
 * Under Review in Coastal Engineering (Q1 and IF: 4.2)
+* excerpt:
+* citation: 
     
 ### **J.** [Bayesian regression for the prediction of berm breakwaters recession](https://doi.org/)
 * Under Review in Coastal Engineering (Q1 and IF: 4.2) 
-    
+ * excerpt:
+* citation:
+   
 ### **J.** [Probabilistic Design of Berm Breakwaters Considering Environmental Parameter Correlations](https://doi.org/)
 * Under Review in Ocean Engineering (Q1 and IF: 4.6)
+* excerpt:
+* citation:
     
 ### **J.** [Predicting Berm Breakwaters Recession Using Machine Learning](https://doi.org/)
 * In Progress
