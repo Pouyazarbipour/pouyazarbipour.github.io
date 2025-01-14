@@ -11,6 +11,24 @@ redirect_from:
 
 You can see my completed programming on my [GitHub page](https://github.com/Pouyazarbipour).
 
+## [Newmark Method in Marine Structures GUI](https://github.com/Pouyazarbipour/Newmark-method-in-Marine-structures)
+
+This MATLAB GUI application simulates and visualizes the displacement and velocity of a system (like a Marine structure) subjected to wave forces using the Newmark method. The GUI allows users to input various parameters, run the simulation, and view the results in graphical form.
+- Input fields for key parameters such as wave length, wave height, water depth, drag coefficient, and more.
+- Real-time simulation of displacement and velocity based on the Newmark method.
+- Dynamic plotting of displacement and velocity against time.
+- Basic error handling for incorrect input types.
+
+## [Earthquake Acceleration Response Spectrum GUI](https://github.com/Pouyazarbipour/Earthquake-acceleration-response-spectrum-GUI)
+
+This MATLAB GUI application generates an **Acceleration Response Spectrum** based on the **API RP 2WSD 2014** standard. The tool allows users to input soil type and coefficient values to compute and visualize the response spectrum.
+- **Input parameters:**
+    - Coefficient (G)
+    - Soil Type (A, B, C)
+- Plots the **Spectral Acceleration vs. Period** graph.
+- Exports spectrum data to a `.txt` file.
+- Simple and user-friendly interface.
+
 ## [Sediment Transport Calculator GUI](https://github.com/Pouyazarbipour/Sediment-Transport-Calculator)
 
 The **Sediment Transport Calculator** is a MATLAB-based graphical user interface (GUI) application designed to compute sediment transport rates using common coastal engineering equations. This tool is useful for researchers, engineers, and students working in coastal engineering and sediment transport studies.
