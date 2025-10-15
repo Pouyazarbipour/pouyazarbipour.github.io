@@ -34,9 +34,7 @@ The application season for Fall 2026 is approaching. I am happy to discuss poten
 
 #### ExaGEO and IAPETUS2 programs
 
-These are fully-funded, competitive PhD opportunities, and I am involved in several projects focusing on glaciers, glacial landscapes, and numerical modeling. New projects are typically posted in the fall, with applications due in the winter.
-
-Links:
+These are fully-funded, competitive PhD opportunities, and I am involved in several projects focusing on landscape evolution, glaciers, and numerical modeling. New projects are typically posted in the fall, with applications due in the winter.
 
 [ExaGEO](https://www.exageo.org/): https://www.exageo.org/
 
@@ -49,4 +47,4 @@ The School of Geographical and Earth Sciences usually offers one or two College 
 
 #### Other externally funded opportunities
 
-I am always happy to discuss potential PhD projects with students who have or intend to apply for external funding (China's CSC Scholarship, for example). Please get in touch if you have a research idea related to the broad theme of interactions between climate and Earth surface processes.
+I am always happy to discuss potential PhD projects with students who have or intend to apply for external funding ([China's CSC Scholarship](https://www.gla.ac.uk/scholarships/thechinascholarshipcouncil/), for example). Please get in touch if you have a research idea related to the broad theme of interactions between climate and Earth surface processes.
