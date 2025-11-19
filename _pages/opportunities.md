@@ -30,16 +30,27 @@ I am involved in several projects focusing on developing new GPU-accelerated mod
 The deadline to submit applications is __17rd February 2025__, and instructions on the application process are available [here](https://www.exageo.org/apply/). Please contact me at [Jingtao.Lai@glasgow.ac.uk](mailto:Jingtao.Lai@glasgow.ac.uk) if you have any questions.
 -->
 
-The application season for Fall 2026 is approaching. I am happy to discuss potential research projects related to the broad theme of interactions between climate and Earth surface processes. Please see some current funding opportunities below.
+If you’re interested in geomorphology, glacial and river processes, climate change, or advanced numerical modelling, check out these exciting PhD projects: 
 
 #### ExaGEO and IAPETUS2 programs
 
-These are fully-funded, competitive PhD opportunities, and I am involved in several projects focusing on landscape evolution, glaciers, and numerical modeling. New projects are typically posted in the fall, with applications due in the winter.
+These are fully-funded, competitive PhD opportunities.
 
-[ExaGEO](https://www.exageo.org/): https://www.exageo.org/
+**ExaGEO DLA**
 
-[IAPETUS2](https://iapetus.ac.uk/): https://iapetus.ac.uk/
+- Scotland landscape response to past abrupt climate change: GPU-accelerated numerical simulations and model-data integration
 
+- Extreme weather event impacts from global warming in the UK
+
+- Data-Driven and Physics-Informed Hybrid Modelling of Landslide Dynamics
+
+For detailed project descriptions, please search the project titles on this [page](https://www.exageo.org/phd-student-projects/). The application deadline is 9 January 2026.
+
+**IAPETUS DTP**
+
+- Sediment release from glacial valleys in a changing climate: Interactions between valley morphology, sediment dynamics, and climate variations
+
+Please refer to this [link](https://iapetus.ac.uk/studentships/sediment-release-from-glacial-valleys-in-a-changing-climate-interactions-between-valley-morphology-sediment-dynamics-and-climate-variations/) for further details. Please note that international applicants must contact me before **8 December 2025**, and the application deadline is 5 January 2026
 
 #### College Scholarship at the University of Glasgow
 
