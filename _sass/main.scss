@@ -1,0 +1,14 @@
+---
+---
+
+// متغیرهای دلخواه قبل از ایمپورت skin
+$primary-color: #0066cc;       // آبی کلاسیک آکادمیک (لینک‌ها، دکمه‌ها)
+$link-color: #005588;          // لینک‌ها کمی تیره‌تر
+$link-color-hover: #003366;    // موقع هاور
+$muted-text-color: #555;       // متن‌های کم‌رنگ
+
+// اگر می‌خوای زمینه کمی متفاوت باشه:
+// $body-background-color: #f8fcff;  // آبی خیلی خیلی روشن
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'air' }}"; // skin انتخابی
+@import "minimal-mistakes";    // بقیه استایل‌ها
