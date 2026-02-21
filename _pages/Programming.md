@@ -44,7 +44,7 @@ Advanced Python tool implementing causal-aware physics-informed neural surrogate
 - ML-based tool for prediction of effective fixed-base level (soil-structure interaction)  
 - Depth Data Extractor from NetCDF files (geospatial processing)
 
-### MATLAB GUI Tools for Coastal & Marine Engineering
+### Other GUI Tools for Coastal & Marine Engineering
 
 **Newmark Method in Marine Structures GUI**  
 [Repository](https://github.com/Pouyazarbipour/Newmark-method-in-Marine-structures)  
@@ -87,3 +87,4 @@ Real-time animated simulation of linear wave motion with stop button and input v
 Simulates wave propagation over sloping bathymetry using EdgeWave theory (up to 3 modes).
 
 All tools are open-source (MIT license) and include user manuals where applicable. Source code, executables, and documentation are available on GitHub and my personal website.
+
