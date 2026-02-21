@@ -6,107 +6,84 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-
 {% include base_path %}
 
-You can see my completed programming on my [GitHub page](https://github.com/Pouyazarbipour).
+You can see all my programming projects on my **[GitHub page](https://github.com/Pouyazarbipour)** (21 public repositories).
 
-## [Newmark Method in Marine Structures GUI](https://github.com/Pouyazarbipour/Newmark-method-in-Marine-structures)
+## Developed Software Tools for Coastal Engineering Applications
+**Dec. 2021 – Present**
 
-This MATLAB GUI application simulates and visualizes the displacement and velocity of a system (like a Marine structure) subjected to wave forces using the Newmark method. The GUI allows users to input various parameters, run the simulation, and view the results in graphical form.
-- Input fields for key parameters such as wave length, wave height, water depth, drag coefficient, and more.
-- Real-time simulation of displacement and velocity based on the Newmark method.
-- Dynamic plotting of displacement and velocity against time.
-- Basic error handling for incorrect input types.
+I have developed **more than 10 Python-based tools** (plus several MATLAB GUI applications) for coastal, ocean, and water engineering. These tools integrate machine learning, deep learning, uncertainty quantification (UQ), causal inference, physics-informed neural networks (PINN), and quantum machine learning with real-world hydrodynamic and structural problems.
 
-## [Earthquake Acceleration Response Spectrum GUI](https://github.com/Pouyazarbipour/Earthquake-acceleration-response-spectrum-GUI)
+### Advanced Python & ML Tools (Key Highlights)
 
-This MATLAB GUI application generates an **Acceleration Response Spectrum** based on the **API RP 2WSD 2014** standard. The tool allows users to input soil type and coefficient values to compute and visualize the response spectrum.
-- **Input parameters:**
-    - Coefficient (G)
-    - Soil Type (A, B, C)
-- Plots the **Spectral Acceleration vs. Period** graph.
-- Exports spectrum data to a `.txt` file.
-- Simple and user-friendly interface.
+**The XGBoost Berm Breakwater Recession Prediction Tool**  
+[Repository](https://github.com/Pouyazarbipour/The-XG-Boost-Berm-Breakwater-Recession-Prediction-tools)  
+A web-based application using **XGBoost** (with Optuna hyperparameter tuning) for highly accurate prediction of berm breakwater recession (Rec/Dₙ₅₀). Achieves R² = 0.99 (training) / 0.97 (testing). Includes **bootstrap-based uncertainty quantification** (95% confidence interval and upper-bound conservative estimate).  
+**Input parameters** (dimensionless): H₀√T₀p, H₀, f₉, h/Dₙ₅₀, h_b/H_s.  
+**Features**: Full GUI, downloadable executable, User & Technical Manual. Directly supports the paper “Accurate Prediction of Berm Breakwater Recession Using XGBoost-Optuna” (Under Review).
 
-## [Sediment Transport Calculator GUI](https://github.com/Pouyazarbipour/Sediment-Transport-Calculator)
+**The Quantum SVM Wave Overtopping Prediction Tool**  
+[Repository](https://github.com/Pouyazarbipour/The-Quantum-SVM-Wave-Overtopping-Prediction-tool)  
+Desktop application (Windows .exe + macOS .dmg) using **quantum machine learning** (variational quantum classifier adapted for regression) on the CLASH database. Predicts average wave overtopping discharge (q) with R² = 0.97.  
+**13 input parameters** including wave height, period, structure geometry, roughness, and freeboard.  
+**Features**: Quantum Monte Carlo sampling for **aleatoric + epistemic uncertainty quantification** (95% CI and upper-bound prediction). Standalone, no internet required. References the 2026 Ocean Engineering paper on quantum ML for wave overtopping.
 
-The **Sediment Transport Calculator** is a MATLAB-based graphical user interface (GUI) application designed to compute sediment transport rates using common coastal engineering equations. This tool is useful for researchers, engineers, and students working in coastal engineering and sediment transport studies.
+**The Physics-Informed UQ SWAN Surrogate Wave Prediction Tool**  
+[Repository](https://github.com/Pouyazarbipour/The-Physics-Informed-UQ-SWAN-Surrogate-Wave-Prediction-Tool)  
+Standalone scientific software for ultra-fast spatial prediction of SWAN wave parameters (Hs, Tp, Dir) over 2D grids. Hybrid **PINN + CNN** architecture with physics constraints (dispersion, refraction, shoaling).  
+**Features**: Monte Carlo Dropout for full **aleatoric and epistemic uncertainty** maps. Orders-of-magnitude faster than full SWAN simulations. Includes GUI and pretrained model for Salalah coastal domain. Supports the 2026 paper “Hybrid PINN-UQ Surrogate for Spatial Reconstruction of SWAN Wave Parameters”.
 
-## [Groin Simulation GUI](https://github.com/Pouyazarbipour/Groin-Simulation-GUI)
+**The Physics-Informed UQ Overtopping Prediction Tool**  
+[Repository](https://github.com/Pouyazarbipour/The-Physics-Informed-UQ-Overtopping-Prediction-Tool)  
+Advanced Python tool implementing causal-aware physics-informed neural surrogate with aleatoric and epistemic uncertainty for wave overtopping prediction (directly supports the 2026 manuscript “Causal-Aware Physics-Informed Neural Surrogate...”).
 
-This MATLAB app simulates the deposition of sand on the updrift side and the erosion of sand on the downdrift side of a groin. The simulation uses a one-line contour model to calculate and visualize shoreline evolution over time.
-- **Deposition & Erosion Modeling:** Simulates the deposition of sand on the updrift side and erosion on the downdrift side of a groin.
-- **Dynamic Visualization:** Displays the shoreline evolution and real-time sediment transport (Q) as the simulation progresses.
-- **Groin Influence:** Calculates the critical distance (`xm`) and when the groin starts bypassing sand (i.e., when the groin reaches its capacity).
+**Other Python Tools**  
+- Coastal Vertical Structures Designer  
+- GEE_Bath_Oman (Google Earth Engine bathymetry processor for Oman coast)  
+- ML-based tool for prediction of effective fixed-base level (soil-structure interaction)  
+- Depth Data Extractor from NetCDF files (geospatial processing)
 
-## [Beach Simulation GUI Model](https://github.com/Pouyazarbipour/Beach-Simulation-Project)
+### MATLAB GUI Tools for Coastal & Marine Engineering
 
-This MATLAB project provides a simulation tool to analyze and visualize beach profiles under native and filled conditions. The model calculates key beach metrics, including depth, volume, and maximum profile extent, based on user-defined input parameters. It is particularly useful for coastal engineering applications such as beach nourishment design and sediment transport studies.
-- Simulates native and filled beach profiles.
-- Computes beach volume and maximum horizontal extent.
-- Provides customizable input parameters for grain size, berm height, and closure depth.
-- Visualizes native and filled beach profiles with clear, labeled plots.
-- Outputs key metrics to the MATLAB console.
+**Newmark Method in Marine Structures GUI**  
+[Repository](https://github.com/Pouyazarbipour/Newmark-method-in-Marine-structures)  
+Simulates displacement and velocity of marine structures under wave forces using the Newmark-β method. Real-time plotting and error handling.
 
-## [Inlet Tide Calculator GUI](https://github.com/Pouyazarbipour/Inlet-Tide-Calculator-App)
+**Earthquake Acceleration Response Spectrum GUI**  
+[Repository](https://github.com/Pouyazarbipour/Earthquake-Acceleration-Response-Spectrum-Generation)  
+Generates acceleration response spectrum according to **API RP 2WSD 2014**. Supports soil types A/B/C and exports to .txt.
 
-The **Inlet Tide Calculator** is a MATLAB-based graphical user interface (GUI) designed to simulate the tidal dynamics of a lagoon or bay connected to the ocean through an inlet. The app calculates the bay's tide response, considering factors such as inlet geometry, energy losses, and tidal propagation time. It uses **Keulegan's method** and the **Runge-Kutta 4th order integration** to solve for the tidal dynamics and visualize the results.
-- **Tidal Wave Calculation**: Computes the tidal response in a bay, considering inlet geometry and energy losses.
-- **Graphical User Interface**: Interactive GUI to input parameters and view results.
-- **Visualization**: Plots both ocean and bay tides with corresponding phase lag.
-- **Results Display**: Displays the repletion coefficient (K), phase lag (in degrees), and response ratio of the bay tide to the ocean tide.
+**Sediment Transport Calculator GUI**  
+[Repository](https://github.com/Pouyazarbipour/Sediment-Transport-Calculator)  
+Computes sediment transport rates using common coastal engineering formulas (CERC, Kamphuis, etc.).
 
-## [Wave Calculator GUI](https://github.com/Pouyazarbipour/WaveCalculator)
+**Groin Simulation GUI**  
+[Repository](https://github.com/Pouyazarbipour/Groin-Simulation-GUI)  
+One-line contour model simulating shoreline evolution, sand deposition/erosion, and bypassing around a groin.
 
-The **Wave Calculator GUI** is a MATLAB-based GUI tool designed to compute various wave parameters such as wave length, wave speed, wave height, and others based on user-provided inputs. The tool provides an interactive interface for entering wave properties and displays calculated results dynamically. This application is useful for students, researchers, and engineers working in fields such as oceanography, coastal engineering, and marine structures. 
+**Beach Simulation GUI Model**  
+[Repository](https://github.com/Pouyazarbipour/Beach-Simulation-GUI)  
+Analyzes native vs. nourished beach profiles, calculates volume, closure depth, and maximum extent.
 
-- **Interactive GUI**:  
-  A user-friendly interface with input fields, dropdown menus, and buttons for calculations.  
+**Inlet Tide Calculator GUI**  
+[Repository](https://github.com/Pouyazarbipour/Inlet-Tide-Calculator-App)  
+Keulegan’s method + Runge-Kutta 4th order for tidal dynamics in lagoons/bays. Plots ocean vs. bay tide with phase lag and repletion coefficient.
 
-- **Customizable Inputs**:  
-  Enter wave height, period or frequency, wave angle, and local water depth.  
+**Wave Calculator GUI**  
+[Repository](https://github.com/Pouyazarbipour/WaveCalculator)  
+Comprehensive linear wave theory calculator (L, k, C, Cg, Ks, Kr, ub, etc.) with full input validation and reset function.
 
-- **Calculated Parameters**:  
-  - Wave length (`L`)  
-  - Wave number (`k`)  
-  - Wave speed (`C`)  
-  - Group velocity (`Cg`)  
-  - Shoaling coefficient (`Ks`)  
-  - Refraction coefficient (`Kr`)  
-  - Resultant wave height (`H`)  
-  - Bottom orbital velocity (`u_b`)
-  - more Parameters
+**Extract Underwater Depth Data from NetCDF Files**  
+[Repository](https://github.com/Pouyazarbipour/Depth-Data-from-NetCDF-Files)  
+Batch processing of bathymetry NetCDF files to extract and save underwater points (lat/lon/depth).
 
-- **Error Handling**:  
-  Input validation ensures that only valid numeric values are accepted. Errors are displayed via pop-up dialogs.  
+**Linear Wave Kinematics Simulation GUI**  
+[Repository](https://github.com/Pouyazarbipour/Linear-wave-Simulation)  
+Real-time animated simulation of linear wave motion with stop button and input validation.
 
-- **Reset Functionality**:  
-  Resets all inputs and outputs to their default values.  
+**EdgeTheory – Wave Simulation GUI**  
+[Repository](https://github.com/Pouyazarbipour/EdgeTheory)  
+Simulates wave propagation over sloping bathymetry using EdgeWave theory (up to 3 modes).
 
-## [Extract Underwater Depth Data from NetCDF Files](https://github.com/Pouyazarbipour/Depth-Data-from-NetCDF-Files)
-
-This script processes **NetCDF (.nc)** files to extract longitude, latitude, and elevation data and saves the information about underwater points (where elevation is below sea level) into a plain text file.
-- Reads geospatial data (latitude, longitude, elevation) from a NetCDF file.
-- Identifies underwater points (negative elevation).
-- Outputs results to a formatted text file (`depth.txt`).
-
-## [Linear Wave Kinematics Simulation GUI](https://github.com/Pouyazarbipour/Linear-wave-Simulation)
-
-Linear Wave Kinematics Simulation is a MATLAB-based graphical user interface (GUI) for simulating linear waves. The simulation allows users to input wave parameters (height, period, and depth), calculate the corresponding wavelength, and visualize the wave's motion over time. The GUI also includes a "Stop" button to halt the simulation. This tool is designed for researchers, students, and engineers interested in coastal and marine applications.
-- **Wave Simulation**: Simulates linear waves based on user input for wave height, period, and local depth.
-- **Real-time Visualization**: Displays a plot of the wave motion that updates in real time.
-- **Input Validation**: Ensures that the input values are positive and within reasonable limits (e.g., wave height is adjusted if it exceeds 80% of the depth).
-- **Interactive Controls**: Users can adjust parameters and start/stop the simulation via the GUI.
-
-## [EdgeTheory - Wave Simulation GUI](https://github.com/Pouyazarbipour/EdgeTheory)
-
-EdgeTheory is a MATLAB-based graphical user interface (GUI) for simulating wave propagation over sloping bathymetry. This tool is designed for researchers, students, and engineers interested in coastal and marine applications.
-- Simulate wave profiles for up to three modes with decay factors based on seabed slope.
-- Interactive GUI with user-defined input parameters:
-  - **Wave Period (T)**: Time period of the waves (in seconds).
-  - **Mean Slope**: Average slope of the seabed.
-  - **Max Offshore Distance**: The farthest distance for the simulation.
-- Real-time animated visualization of wave propagation.
-- Simple and intuitive interface for easy use.
-
+All tools are open-source (MIT license) and include user manuals where applicable. Source code, executables, and documentation are available on GitHub and my personal website.
