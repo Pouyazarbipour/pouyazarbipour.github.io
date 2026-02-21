@@ -2,31 +2,33 @@
 permalink: /
 title: "About me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
+Currently a **Graduate Research Assistant** in **Dr. Mohammad Reza Nikoo**’s lab at **Sultan Qaboos University, Oman** (Jun. 2025 – Present), where he implements machine learning and deep learning techniques in ocean engineering applications and conducts uncertainty quantification in water engineering. Pouya Zarbipour-Lakposhteh received his M.Sc. in Civil Engineering (Coastal, Port, and Marine Structures) from [Tarbiat Modares University](https://modares.ac.ir/en) in February 2024 (GPA: 15.03/20, thesis grade: Excellent 19.25/20) and his Associate’s Degree and B.Sc. in Civil Engineering (Construction and Execution) from **Technical and Vocational University (TVU)**, Tehran, in February 2020 (GPA: 14.94/20).
 
-Looking for PhD position and Research Assistant at [The Coastal Hydraulics Laboratory](https://CoastalHydLab.modares.ac.ir/), focusing on the reliability analysis, risk, resilience, and machine learning in coastal and marine structures engineering. Pouya received a BSc in Civil Engineering from [The National University of Skills](https://nus.ac.ir/en/) in 2020 and an MSc in Civil Engineering (coastal, port, and marine structures) from [Tarbiat Modares University](https://modares.ac.ir/en) in 2024. He has contributed to numerous technical projects, including reliability design and optimization in structures, especially in coastal and marine structures, hydrodynamic modeling, and remote sensing. With proficiency in MATLAB, Python, and specialized software such as ArcGIS Pro, SAP2000, Google Earth Engine, UQLab, and Mike Zero, he combines technical skills with strong teamwork, communication, and organizational abilities. Additionally, he actively supervises construction projects and engages in graduate research and teaching assistant at TMU advised by Prof. [Hassan Akbari](https://www.modares.ac.ir/~akbari.h) and Prof. [Mehdi Shafieefar](https://www.modares.ac.ir/~shafiee), further enhancing his academic and professional portfolio.
+He has extensive experience in reliability analysis, risk assessment, Reliability-Based Design Optimization (RBDO), causal inference, and AI-driven modeling of coastal and marine structures. His work includes probabilistic evaluation of desalination outfalls, Bayesian reliability design of reshaping berm breakwaters, quantum machine learning for wave overtopping, harmful algal bloom prediction, and development of more than 10 Python-based tools for coastal engineering applications. He also serves as **Supervisor and Executive Engineer** at the Iran Construction Engineering Organization (IRCEO) and previously worked as Graduate Teaching & Research Assistant at Tarbiat Modares University and Coastal Hyd Lab under Prof. Mehdi Shafieefar and Dr. Hassan Akbari. He is an Ad Hoc Reviewer for *Water Research* (Elsevier, IF: 12.4, Q1).
+
+With strong proficiency in Python, MATLAB, Fortran, and specialized software (UQLab, MIKE Zero, Delft3D, CORMIX, ArcGIS Pro, Google Earth Engine, SAP2000, PLAXIS 3D, GeoStudio), he combines advanced computational skills with practical construction supervision and academic teaching experience.
 
 ## Research Interests
-  * **Probabilistic & Reliability Analysis**
-  * **Multi-Hazard Risk Analysis**
-  * **Risk and Resilience**
-  * **Coastal Engineering**
-  * **Machine Learning**
-  * **Hydrodynamic**
+* **Uncertainty Quantification**
+* **Coastal and Ocean Engineering**
+* **Machine Learning and Deep Learning Applications**
+* **Remote Sensing**
+* **Causal Inference**
+* **Hydrodynamics**
 
-Additional topics I am interested in include: Reliability-Based Design Optimization and Remote Sensing.
+Additional topics: Reliability-Based Design Optimization (RBDO), time-dependent reliability of coastal structures, quantum machine learning, and physics-informed neural networks.
 
-## Online Profiles 
-
+## Online Profiles
 You can find me on the internet:
-
 * [Google Scholar](https://scholar.google.com/citations?user=V5aIzssAAAAJ&hl=en&authuser=1)
+* [LinkedIn](https://www.linkedin.com/in/pouya-zarbipour/)
+* [Personal Website](https://pouyazarbipour.github.io/)
 * [Scopus](https://www.scopus.com/authid/detail.uri?origin=citedby&authorId=59362450400&zone=#tab=cited-by)
 * [GitHub](https://github.com/pouyazarbipour)
-* [LinkedIn](https://www.linkedin.com/in/pouya-zarbipour/)
 * [ORCiD](https://orcid.org/0000-0002-8024-9062)
 * [ResearchGate](https://www.researchgate.net/profile/Pouya-Zarbipour)
 * [X](https://x.com/pouyazarbipour)
