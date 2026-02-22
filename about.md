@@ -7,7 +7,6 @@ He has extensive experience in reliability analysis, risk assessment, Reliabilit
 With strong proficiency in Python, MATLAB, Fortran, and specialized software (UQLab, MIKE Zero, Delft3D, CORMIX, ArcGIS Pro, Google Earth Engine, SAP2000, PLAXIS 3D, GeoStudio), he combines advanced computational skills with practical construction supervision and academic teaching experience.
 <br><br>
 ## Education
-
 **Tarbiat Modares University (TMU), Tehran, Iran**, Sep. 2021 – Feb. 2024  
 *M.Sc. in Civil Engineering (Coastal, Port, and Marine Structures)* | GPA: 15.03 (out of 20)  
     - Thesis Title: *Probabilistic Evaluation of Effluent Discharge Performance in Desalination*  
@@ -27,11 +26,11 @@ With strong proficiency in Python, MATLAB, Fortran, and specialized software (UQ
 <br><br>
 ## Research Interests
 
-  * **Uncertainty Quantification**
-  * **Coastal and Ocean Engineering**
-  * **Machine Learning and Deep Learning Applications**
-  * **Remote Sensing**
-  * **Causal Inference**
-  * **Hydrodynamics**
+    * **Uncertainty Quantification**
+    * **Coastal and Ocean Engineering**
+    * **Machine Learning and Deep Learning Applications**
+    * **Remote Sensing**
+    * **Causal Inference**
+    * **Hydrodynamics**
 <br><br>
 Additional topics: Reliability-Based Design Optimization (RBDO), time-dependent reliability of coastal structures, quantum machine learning, and physics-informed neural networks.
