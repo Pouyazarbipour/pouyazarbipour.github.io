@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matt Hatami - Personal Blog</title>
+    <title>Pouya Zarbipour-Lakposhteh - Personal Website</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -32,13 +32,12 @@
             </div>
         </div>
     </nav>
-
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1 class="hero-title">Matt Hatami</h1>
+                    <h1 class="hero-title">Pouya Zarbipour-Lakposhteh</h1>
                     <div class="typing-container">
                         <div class="typing-line">
                             <span class="static-text">I do</span>
@@ -54,17 +53,22 @@
                         </div>
                     </div>
                     <p class="hero-description">
-                        A resume lists achievements.<br>
-                        A story explains the journey.
+                        Uncertainty Quantification • Coastal & Ocean Engineering • Machine Learning & Deep Learning • Remote Sensing • Causal Inference • Hydrodynamics
                     </p>
                     <div class="hero-buttons">
-                        <a href="assets/CV_HatamiMatt.pdf" target="_blank" class="btn btn-primary">My Resume</a>
-                        <a href="#" class="btn btn-secondary">My Story</a>
+                        <a href="assets/CV_PouyaZarbipour.pdf" target="_blank" class="btn btn-primary">Download CV</a>
+                        <a href="#about" class="btn btn-secondary">My Journey</a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="https://scholar.google.com/citations?user=V5aIzssAAAAJ&hl=en" target="_blank" class="social-link">Google Scholar</a>
+                        <a href="https://www.linkedin.com/in/pouya-zarbipour" target="_blank" class="social-link">LinkedIn</a>
+                        <a href="https://pouyazarbipour.github.io/" target="_blank" class="social-link">Personal Website</a>
+                        <a href="mailto:pouya.zarbipour@modares.ac.ir" class="social-link">Email</a>
                     </div>
                 </div>
             </div>
         </div>
-        
+       
         <!-- Downward Arrow Scroll Button -->
         <button class="scroll-down-arrow" id="scroll-down-arrow" aria-label="Scroll down">
             <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -73,304 +77,265 @@
             </svg>
         </button>
     </section>
-
     <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
             <h2 class="section-title">About Me</h2>
-            <div id="about-container"></div>
+            <div id="about-container">
+                <h3>Research Interests</h3>
+                <p>Uncertainty Quantification; Coastal and Ocean Engineering; Machine Learning and Deep Learning Applications; Remote Sensing; Causal Inference; and Hydrodynamics.</p>
+                
+                <h3>Education</h3>
+                <p><strong>Tarbiat Modares University (TMU), Tehran, Iran</strong><br>
+                Sep. 2021 – Feb. 2024<br>
+                M.Sc. in Civil Engineering (Coastal, Port, and Marine Structures) | GPA: 15.03 (out of 20)<br>
+                · Thesis Title: Probabilistic Evaluation of Effluent Discharge Performance in Desalination. | (Excellent grade 19.25/20)<br>
+                · Supervisor: Dr. Hassan Akbari</p>
+                
+                <p><strong>Technical and Vocational University (TVU), Tehran, Iran</strong><br>
+                Sep. 2015 – Feb. 2020<br>
+                Associate's Degree and B.Sc. in Civil Engineering (Construction and Execution) | GPA: 14.94 (out of 20)</p>
+                
+                <h3>Achievements and Awards</h3>
+                <ul>
+                    <li>First-ranked graduate of the Marine Structures Department, Iran – 2023<br>
+                    Awarded for M.Sc. thesis | Department ranked 102nd in the world for civil engineering according to US News.</li>
+                    <li>Governmental Fellowship, Iran – Fall 2021<br>
+                    Awarded for M.Sc. studies | Tarbiat Modares University – Ranked 7th in Iran according to US News.</li>
+                    <li>Governmental Fellowship, Iran – Fall 2015<br>
+                    Awarded for Associate's Degree and B.Sc. studies | Technical and Vocational University</li>
+                </ul>
+            </div>
         </div>
     </section>
-
     <!-- Work Section -->
     <section id="work" class="work">
         <div class="container">
             <h2 class="section-title">Featured Work</h2>
             <p style="text-align:center; margin-bottom:2rem;">
-              To see a full list of my projects, check out the project section in my 
-              <a href="https://www.linkedin.com/in/hatamimatt/details/projects/" target="_blank" rel="noopener noreferrer">LinkedIn profile</a>.
+              To see a full list of my projects and software tools, check the Tools section and my 
+              <a href="https://pouyazarbipour.github.io/" target="_blank" rel="noopener noreferrer">personal website</a>.
             </p>
-            
+           
             <!-- Filter Buttons -->
             <div class="work-filters">
                 <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="gis">GIS</button>
-                <button class="filter-btn" data-filter="remote-sensing">Remote Sensing</button>
-                <button class="filter-btn" data-filter="coding">Coding</button>
+                <button class="filter-btn" data-filter="machine-learning">Machine Learning</button>
+                <button class="filter-btn" data-filter="coastal">Coastal Engineering</button>
+                <button class="filter-btn" data-filter="uq">Uncertainty Quantification</button>
             </div>
-            
+           
             <div class="work-grid">
-                <div class="work-card" data-category="gis">
+                <div class="work-card" data-category="machine-learning coastal">
                     <div class="work-image">
                         <i class="fas fa-chart-line"></i>
                     </div>
                     <div class="work-content">
-                        <h3>Coastal Vulnerability Dashboard</h3>
-                        <p>Interactive GIS dashboard for coastal vulnerability assessment using multi-criteria decision-making and probabilistic principal component analysis.</p>
+                        <h3>XGBoost-Optuna Berm Breakwater Recession Prediction</h3>
+                        <p>Accurate Prediction of Berm Breakwater Recession Using XGBoost-Optuna: Integrating Uncertainty Quantification and Causal Inference. Developed as part of advanced coastal structure reliability analysis.</p>
                         <div class="work-tags">
-                            <span class="tag">Data Visualization</span>
-                            <span class="tag">GIS</span>
-                            <span class="tag">WebGIS</span>
+                            <span class="tag">XGBoost</span>
+                            <span class="tag">Optuna</span>
+                            <span class="tag">Coastal Engineering</span>
                         </div>
                         <div class="work-links-row">
-                            <a href="https://southcarolina.maps.arcgis.com/apps/dashboards/fc7eef0cb3b844dea1dbbb7500b5dffd" class="work-link">View the Dashboard</a>
+                            <a href="#tools" class="work-link">View Tool</a>
                         </div>
                     </div>
                 </div>
-                <div class="work-card" data-category="gis">
+                <div class="work-card" data-category="machine-learning uq">
                     <div class="work-image">
-                        <i class="fas fa-map-marked-alt"></i>
+                        <i class="fas fa-waveform"></i>
                     </div>
                     <div class="work-content">
-                        <h3>Coastal Vulnerability StoryMap</h3>
-                        <p>Interactive StoryMap explaining coastal vulnerability methodology and findings for wider public engagement and understanding.</p>
+                        <h3>Quantum Machine Learning for Wave Overtopping</h3>
+                        <p>Quantum machine learning for wave overtopping estimation: Integrating with causal inference and uncertainty quantification. Includes Quantum SVM implementation.</p>
                         <div class="work-tags">
-                            <span class="tag">GIS</span>
-                            <span class="tag">WebGIS</span>
-                            <span class="tag">DataVisualization</span>
+                            <span class="tag">Quantum ML</span>
+                            <span class="tag">Causal Inference</span>
+                            <span class="tag">Hydrodynamics</span>
                         </div>
                         <div class="work-links-row">
-                            <a href="https://storymaps.arcgis.com/stories/970c3abd8da8438192aabd3132bcb2b3" target="_blank" class="work-link">View StoryMap</a>
+                            <a href="https://doi.org/10.1016/j.oceaneng.2025.123482" target="_blank" class="work-link">Read Paper</a>
                         </div>
                     </div>
                 </div>
-                <div class="work-card" data-category="gis">
+                <div class="work-card" data-category="coastal uq">
                     <div class="work-image">
                         <i class="fas fa-shield-alt"></i>
                     </div>
                     <div class="work-content">
-                        <h3>WebGIS Services to Support Locational Choices of Shelters</h3>
-                        <p>Geospatial analysis for seismic emergency management using ArcGIS Pro to optimize shelter placement in Amatrice, Italy.</p>
+                        <h3>Reliability Design of Seawater Desalination Outfalls</h3>
+                        <p>Reliability design of seawater desalination outfalls based on a novel probabilistic environmental assessment. Thesis-related work with excellent grade.</p>
                         <div class="work-tags">
-                            <span class="tag">ArcGIS Pro</span>
-                            <span class="tag">WebGIS</span>
-                            <span class="tag">Emergency Planning</span>
+                            <span class="tag">Reliability Analysis</span>
+                            <span class="tag">Desalination</span>
+                            <span class="tag">Probabilistic Assessment</span>
                         </div>
                         <div class="work-links-row">
-                            <a href="assets/reports/GPMReport.pdf" class="work-link" target="_blank">View Report</a>
-                            <a href="assets/reports/GPEMLight.pdf" class="work-link" target="_blank">View Presentation</a>
+                            <a href="https://doi.org/10.1016/j.oceaneng.2024.119465" target="_blank" class="work-link">Read Paper</a>
                         </div>
                     </div>
                 </div>
-                <div class="work-card" data-category="remote-sensing">
-                    <div class="work-image">
-                        <i class="fas fa-mountain"></i>
-                    </div>
-                    <div class="work-content">
-                        <h3>Shallow Landslide Risk Assessment</h3>
-                        <p>Multidisciplinary approach combining geological, photogrammetric, and geophysical methods to investigate rainfall-induced landslides.</p>
-                        <div class="work-tags">
-                            <span class="tag">Geology</span>
-                            <span class="tag">Photogrammetry</span>
-                            <span class="tag">Geophysics</span>
-                        </div>
-                        <div class="work-links-row">
-                            <a href="assets/reports/GETUSpdf.pdf" class="work-link" target="_blank">Download Report</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="work-card" data-category="remote-sensing">
-                    <div class="work-image">
-                        <i class="fas fa-exclamation-triangle"></i>
-                    </div>
-                    <div class="work-content">
-                        <h3>Garfanana Valley Risk Assessment</h3>
-                        <p>Systematic risk assessment study considering hazards, vulnerabilities, and exposure factors for comprehensive valley analysis.</p>
-                        <div class="work-tags">
-                            <span class="tag">Risk Assessment</span>
-                            <span class="tag">Hazards</span>
-                            <span class="tag">Vulnerability</span>
-                        </div>
-                        <div class="work-links-row">
-                            <a href="assets/reports/garfananaproject.pdf" class="work-link" target="_blank">Download Report</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="work-card" data-category="coding remote-sensing">
-                    <div class="work-image">
-                        <i class="fas fa-satellite"></i>
-                    </div>
-                    <div class="work-content">
-                        <h3>Transfer Learning in Geospatial Foundational Model (Prithvi)</h3>
-                        <p>Advanced machine learning techniques applied to remote sensing data for improved environmental monitoring and analysis.</p>
-                        <div class="work-tags">
-                            <span class="tag">Machine Learning</span>
-                            <span class="tag">Remote Sensing</span>
-                            <span class="tag">Transfer Learning</span>
-                        </div>
-                        <div class="work-links-row">
-                            <a href="assets/reports/csce885.pdf" class="work-link" target="_blank">Download Report</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Tools/Datasets Section -->
-    <section id="tools" class="section">
-        <div class="container">
-            <h2>Tools/Datasets</h2>
-            <div class="work-grid">
-                <div class="work-card" data-category="coding data-visualization">
-                    <div class="work-image">
-                        <i class="fas fa-chart-bar"></i>
-                    </div>
-                    <div class="work-content">
-                        <h3>Interactive Distribution Playground</h3>
-                        <p>Interactive web application for exploring probability distributions in real-time. Built with Streamlit, this tool allows users to adjust distribution parameters, compare multiple distributions, and visualize mathematical concepts. Perfect for statistics education, data analysis, and understanding probability theory through hands-on experimentation.</p>
-                        <div class="work-tags">
-                            <span class="tag">Streamlit</span>
-                            <span class="tag">Statistics</span>
-                            <span class="tag">Data Visualization</span>
-                            <span class="tag">Educational Tool</span>
-                        </div>
-                        <div class="work-links-row">
-                            <a href="https://distributionplaygroundpy-lrxuyld3rdswjs4ucblhxn.streamlit.app/" class="work-link" target="_blank">Try Live App</a>
-                            <a href="https://youtu.be/p3gCAjmaiPU" class="work-link" target="_blank">Watch Demo</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="work-card" data-category="coding remote-sensing">
+                <div class="work-card" data-category="machine-learning coastal">
                     <div class="work-image">
                         <i class="fas fa-water"></i>
                     </div>
                     <div class="work-content">
-                        <h3>End-to-End Flood Dataset Generation Pipeline</h3>
-                        <p>Developed a comprehensive pipeline that addresses the challenge of creating high-quality flood datasets for machine learning. The system uses Google Earth Engine to extract flood extents using the SPIDER framework, processing Sentinel-1 SAR imagery to compare pre- and post-event conditions. The Python preprocessing component generates 256x256 pixel image chips with proper georeferencing, creating balanced training datasets for flood detection models.</p>
+                        <h3>Causal-Aware PINN Surrogate for Wave Overtopping</h3>
+                        <p>Causal-Aware Physics-Informed Neural Surrogate with Aleatoric and Epistemic Uncertainty for Wave Overtopping Prediction.</p>
                         <div class="work-tags">
-                            <span class="tag">Google Earth Engine</span>
-                            <span class="tag">Python</span>
-                            <span class="tag">Machine Learning</span>
-                        </div>
-                        <div class="work-links-row">
-                            <a href="https://github.com/hatamimatt/EndtoEnd_FloodDataset_Pipeline" class="work-link" target="_blank">View on GitHub</a>
+                            <span class="tag">PINN</span>
+                            <span class="tag">Causal Inference</span>
+                            <span class="tag">Uncertainty Quantification</span>
                         </div>
                     </div>
                 </div>
-
-                <div class="work-card" data-category="gis">
+                <div class="work-card" data-category="machine-learning remote-sensing">
                     <div class="work-image">
-                        <i class="fas fa-chart-pie"></i>
+                        <i class="fas fa-satellite"></i>
                     </div>
                     <div class="work-content">
-                        <h3>NLCD Land Cover Analysis Tool</h3>
-                        <p>Built a cloud-based Google Earth Engine application that solves the challenge of calculating land cover percentages across large geographic areas. The tool processes National Land Cover Database (NLCD) data to provide instant calculations for wetlands, forests, developed areas, and other land cover classes at state, county, or tract levels. What previously required hours of ArcGIS Pro processing is now accomplished in minutes through cloud-based computation.</p>
+                        <h3>Graph Neural Network for Chlorophyll-a Prediction</h3>
+                        <p>A Graph Neural Network Transformer Model for Spatio-Temporal Prediction of chlorophyll-a in semi-enclosed Gulfs.</p>
                         <div class="work-tags">
-                            <span class="tag">Google Earth Engine</span>
-                            <span class="tag">NLCD</span>
-                            <span class="tag">Land Cover</span>
+                            <span class="tag">GNN</span>
+                            <span class="tag">Remote Sensing</span>
+                            <span class="tag">Harmful Algal Blooms</span>
                         </div>
-                        <div class="work-links-row">
-                            <a href="https://code.earthengine.google.com/607476fcfe540558f28579a6801d0b26" class="work-link" target="_blank">Access Tool</a>
+                    </div>
+                </div>
+                <div class="work-card" data-category="coastal uq">
+                    <div class="work-image">
+                        <i class="fas fa-mountain"></i>
+                    </div>
+                    <div class="work-content">
+                        <h3>Reliability-Based Design Optimization of Berm Breakwaters</h3>
+                        <p>Reliability-Based Design Optimization of Berm Breakwaters with Different Reshaping and Dependency Structures. Also includes Bayesian modification approach and case study at Chabahar region.</p>
+                        <div class="work-tags">
+                            <span class="tag">RBDO</span>
+                            <span class="tag">Berm Breakwaters</span>
+                            <span class="tag">Bayesian</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
+    <!-- Tools/Datasets Section -->
+    <section id="tools" class="section">
+        <div class="container">
+            <h2>Tools/Datasets</h2>
+            <p style="text-align:center; margin-bottom:2rem;">Developed more than 10 Python-based tools for coastal engineering applications (Dec. 2021 – Present). Full list and source code available on my personal website.</p>
+            <div class="work-grid">
+                <div class="work-card" data-category="coding coastal">
+                    <div class="work-image">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <div class="work-content">
+                        <h3>Coastal Engineering Python Tool Suite</h3>
+                        <p>More than 10 Python-based tools including sediment transport calculators, breakwater design calculators, and various coastal hydrodynamics utilities. Programmed and maintained at Tarbiat Modares University Coastal Hyd Lab.</p>
+                        <div class="work-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Coastal Engineering</span>
+                            <span class="tag">Hydrodynamics</span>
+                        </div>
+                        <div class="work-links-row">
+                            <a href="https://pouyazarbipour.github.io/" target="_blank" class="work-link">View on Personal Website</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-card" data-category="machine-learning coastal">
+                    <div class="work-image">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <div class="work-content">
+                        <h3>XGBoost Berm Breakwater Recession Prediction Tool</h3>
+                        <p>Advanced XGBoost-Optuna model for high-accuracy prediction of berm breakwater recession with integrated uncertainty quantification and causal inference.</p>
+                        <div class="work-tags">
+                            <span class="tag">XGBoost</span>
+                            <span class="tag">Optuna</span>
+                            <span class="tag">Coastal Structures</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-card" data-category="machine-learning uq">
+                    <div class="work-image">
+                        <i class="fas fa-atom"></i>
+                    </div>
+                    <div class="work-content">
+                        <h3>Quantum SVM Wave Overtopping Prediction Tool</h3>
+                        <p>Quantum Support Vector Machine and quantum machine learning tool for wave overtopping estimation, integrated with causal inference and uncertainty quantification.</p>
+                        <div class="work-tags">
+                            <span class="tag">Quantum ML</span>
+                            <span class="tag">Wave Overtopping</span>
+                            <span class="tag">Uncertainty Quantification</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Presentations Section -->
     <section id="videos" class="videos">
         <div class="container">
-            <h2 class="section-title">Presentations</h2>
+            <h2 class="section-title">Presentations & Conferences</h2>
             <div class="youtube-videos">
                 <div class="youtube-video-row">
-                    <div class="youtube-video-col">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/XMZxnqovWe4" frameborder="0" allowfullscreen></iframe>
-                    </div>
                     <div class="youtube-desc-col">
-                        <h3>CSCE 883 & GEOG755 Project Presentation @ UofSC</h3>
-                        <p><strong>Date:</strong> Jan 2025 </p>
-                        <p>During the first semester of my PhD at the University of South Carolina, I completed a two-phase project that fulfilled
-                        the requirements for two courses: CSCE887 (Machine Learning) and GEOG755 (Remote Sensing and Analysis). This presentation covers the final project for CSCE 885, demonstrating the implementation, results, and key findings of the project. For more details, you can download the full project report below.</p>
-                        <a href="assets/reports/csce885.pdf" class="btn btn-primary" download>Download Project Report (PDF)</a>
+                        <h3>Assessment of the Spread of Desalination Plant Effluent – 1st International Conference on Blue Economy</h3>
+                        <p><strong>Date:</strong> 2024</p>
+                        <p>Conference presentation on the Saqi Koothar Desalination Plant, Bandar Abbas. Probabilistic environmental assessment and effluent spread analysis.</p>
+                        <a href="https://en.civilica.com/doc/1994723/" target="_blank" class="btn btn-primary">View Conference Paper</a>
                     </div>
                 </div>
                 <div class="youtube-video-row">
-                    <div class="youtube-video-col">
-                        <iframe width="360" height="215" src="https://www.youtube.com/embed/B2mcQwOKGIg" frameborder="0" allowfullscreen></iframe>
-                    </div>
                     <div class="youtube-desc-col">
-                        <h3>Introduction to Google Earth Engine Presentation @ UofSC</h3>
-                        <p><strong>Date:</strong> Dec 2024</p>
-                        <p>In the first semester of my PhD programat University of South Carolina, I took GEOG755: Remote Sensing Modelling and Analysis. One of the assignments was to create a presentation about a topic related to remote sensing. To fullfill this requirement, I recorded a short lecture about Google Earth Engine and how to use it to analyze remote sensing data.</p>
+                        <h3>M.Sc. Thesis Defense Presentation</h3>
+                        <p><strong>Date:</strong> Feb. 2024</p>
+                        <p>Probabilistic Evaluation of Effluent Discharge Performance in Desalination – Excellent grade 19.25/20 at Tarbiat Modares University.</p>
                     </div>
                 </div>
                 <div class="youtube-video-row">
-                    <div class="youtube-video-col">
-                        <iframe width="360" height="215" src="https://www.youtube.com/embed/V2PTMmq3l-k" frameborder="0" allowfullscreen></iframe>
-                    </div>
                     <div class="youtube-desc-col">
-                        <h3>IBM Call for Code Competition Pitch Presentation @ UofSC</h3>
-                        <p><strong>Date:</strong> Nov 2024</p>
-                        <p>On September 28, 2024, IBM, in partnership with the University of South Carolina (UofSC), hosted a statewide Call for Code hackathon, followed by a competition where students pitched innovative use cases for IBM’s new tool, Watsonx.ai. In this competition, I presented SafeGuard.ai — a solution designed to assist populations affected by natural disasters by providing essential resources to keep them safe before, during, and after such events. More than 100 students from colleges and universities across South Carolina participated in the event. I was honored to secure 3rd place, earning a $2,500 prize.</p>
-                        <p>
-                            <a href="https://www.linkedin.com/posts/hatamimatt_aiabrcompetition-drr-southabrcarolina-activity-7246265273039634433-P_NA?utm_source=share&utm_medium=member_desktop&rcm=ACoAACXE9poBqjyAaYKBY4BZqq8mGy65Rg501c8" target="_blank" rel="noopener noreferrer">Read my LinkedIn post about the event</a><br>
-                            <a href="https://sc.edu/study/colleges_schools/cic/about/news/2024/cic_welcomes_students_watsonx_workshop.php" target="_blank" rel="noopener noreferrer">Read more about the event on UofSC News</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="youtube-video-row">
-                    <div class="youtube-video-col">
-                        <iframe width="360" height="215" src="https://www.youtube.com/embed/-nvML6FCT6Q" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                    <div class="youtube-desc-col">
-                        <h3>Coastal Risk and Vulnerability Presentation @ SCARC Conference (SC, USA)</h3>
-                        <p><strong>Date:</strong> Oct 2024</p>
-                        <p>During my first semester as a PhD student at the University of South Carolina, I had the opportunity to present one of
-                        our research projects from the Water Resources Management Group. My presentation was selected for an oral session at the
-                        SCARC 2024 conference. This recording is a capture of that presentation.</p>
-                        <p>
-                            <a href="https://scarcgis.org" target="_blank" rel="noopener noreferrer">Learn more about the SCARC conference</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="youtube-video-row">
-                    <div class="youtube-video-col">
-                        <iframe width="360" height="215" src="https://www.youtube.com/embed/dJ07ccRr4yk" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                    <div class="youtube-desc-col">
-                        <h3>M.Sc. Thesis Presentation @ Polytechnic University of Milan (PoliMi)</h3>
-                        <p><strong>Date:</strong> May 2024</p>
-                        <p>As part of my course-based master's degree at the Polytechnic University of Milan (PoliMi), I completed a thesis project that reviewed the applications of deep learning in remote sensing, specifically in the context of disaster management. This presentation summarizes key findings from the literature and discusses how deep learning techniques are advancing the field of disaster response and risk assessment using remote sensing data.</p>
-                    </div>
-                </div>
-                <div class="youtube-video-row">
-                    <div class="youtube-video-col">
-                        <iframe width="360" height="215" src="https://www.youtube.com/embed/Iwni2b6RGhs" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                    <div class="youtube-desc-col">
-                        <h3>Landslide Risk and Geo-Engineering Techniques for Unstable Slopes Class Project Presentation @PoliMi</h3>
-                        <p><strong>Date:</strong> Feb 2023</p>
-                        <p>This class project presentation explores the assessment of landslide risk and the application of geo-engineering techniques to stabilize unstable slopes. The talk covers hazard identification, risk analysis, and practical engineering solutions for mitigating landslide hazards in vulnerable areas.</p>
-                    </div>
-                </div>
-                <div class="youtube-video-row">
-                    <div class="youtube-video-col">
-                        <iframe width="360" height="215" src="https://www.youtube.com/embed/wirIVdNAxLg" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                    <div class="youtube-desc-col">
-                        <h3>Tools for Risk Management Class Project Presentation @ PoliMi</h3>
-                        <p><strong>Date:</strong> Jan 2022</p>
-                        <p>This presentation reviews a range of tools and methodologies for effective risk management in engineering projects. It highlights the use of quantitative and qualitative approaches to identify, assess, and mitigate risks, with examples from real-world case studies.</p>
+                        <h3>Research Seminars & Additional Presentations</h3>
+                        <p>Ongoing presentations on reliability-based design of berm breakwaters, quantum ML applications in ocean engineering, and causal inference in coastal systems at Tarbiat Modares University, Sultan Qaboos University, and international forums.</p>
+                        <p>Check LinkedIn and Google Scholar for latest updates and recordings.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
     <!-- Research Section -->
     <section id="research" class="research">
         <div class="container">
             <h2 class="section-title">Research & Publications</h2>
             <div class="research-content">
-                <p>For an up-to-date list of my research and publications, please visit my <a href="https://scholar.google.com/citations?user=N0m5rRUAAAAJ&hl=en" target="_blank">Google Scholar profile</a>.</p>
+                <p>For an up-to-date list of my research and citations, please visit my <a href="https://scholar.google.com/citations?user=V5aIzssAAAAJ&hl=en" target="_blank">Google Scholar profile</a>.</p>
+                
+                <h3>Journal Publications</h3>
+                <ul style="list-style-type: none; padding-left: 0;">
+                    <li><strong>Zarbipour, P., Nikoo, M. R., Akbari, H., Nazari, R. & Karimi, M. (2026).</strong> Bridging Causality and Deep Learning for Harmful Algal Bloom Prediction. <em>Water Research</em>, 125492. <a href="https://doi.org/10.1016/j.watres.2026.125492" target="_blank">DOI</a></li>
+                    <li><strong>Zarbipour, P., Jamali Rovesht, A., Akbari, H. & Shafieefar, M. (2026).</strong> Reliability design of reshaping berm breakwaters based on a Bayesian modification. <em>Ocean Engineering</em>. <a href="https://doi.org/10.1016/j.oceaneng.2026.124594" target="_blank">DOI</a></li>
+                    <li><strong>Zarbipour, P., Akbari, H., & Nikoo, M. R. (2026).</strong> Quantum machine learning for wave overtopping estimation: Integrating with causal inference and uncertainty quantification. <em>Ocean Engineering</em>, 343, 123482. <a href="https://doi.org/10.1016/j.oceaneng.2025.123482" target="_blank">DOI</a></li>
+                    <li><strong>Zarbipour, P., & Akbari, H. (2024).</strong> Reliability design of seawater desalination outfalls based on a novel probabilistic environmental assessment. <em>Ocean Engineering</em>, 313, 119465. <a href="https://doi.org/10.1016/j.oceaneng.2024.119465" target="_blank">DOI</a></li>
+                    <li><strong>Etri, T., Jamali Rovesht, A., Nikoo, M. R., & Zarbipour, P. (2026).</strong> Hybrid PINN-UQ Surrogate for Spatial Reconstruction of SWAN Wave Parameters. <em>Ocean Engineering</em>.</li>
+                    <li><strong>Zarbipour, P., & Akbari, H. (2026).</strong> Reliability Analysis of Different Reshaping Berm Breakwaters: Case study at Chabahar region. <em>International Journal of Coastal, Offshore and Environmental Engineering</em>.</li>
+                    <li><strong>Zarbipour, P., & Akbari, H. (2026).</strong> Reliability-Based Design Optimization of Berm Breakwaters with Different Reshaping and Dependency Structures. Manuscript in preparation.</li>
+                    <li><strong>Jamali Rovesht, A., Shafieefar, M., Akbari, H. & Zarbipour, P. (2026).</strong> Probabilistic Design of Berm Breakwaters Considering Environmental Parameter Correlations. <em>Applied Ocean Engineering</em>. Under Review.</li>
+                    <li><strong>Zarbipour, P., Jamali Rovesht, A., Akbari, H. & Shafieefar, M. (2026).</strong> Accurate Prediction of Berm Breakwater Recession Using XGBoost-Optuna: Integrating Uncertainty Quantification and Causal Inference. <em>Applied Ocean Engineering</em>. Under Review.</li>
+                    <li><strong>Zarbipour, P., Jamali Rovesht, A. & Nikoo, M. R. (2026).</strong> Causal-Aware Physics-Informed Neural Surrogate with Aleatoric and Epistemic Uncertainty for Wave Overtopping Prediction.</li>
+                    <li><strong>Zarbipour, P., Akbari, H., Nikoo, M. R. & Kazemi, A. (2026).</strong> A Graph Neural Network Transformer Model for Spatio-Temporal Prediction of chlorophyll-a in semi-enclosed Gulfs. <em>Scientific Reports</em>. Under Review.</li>
+                    <li><strong>Zarbipour, P., Nasimi, S. & Yazdani, M. (2026).</strong> A Novel Machine Learning Framework with Causal Inference for Rapid Soil-Structure Interaction-Based Displacement Prediction in Deeply Embedded High-Rise Buildings. <em>Engineering Applications of Artificial Intelligence</em>. Under Review.</li>
+                </ul>
+                
+                <h3>Conference Publications</h3>
+                <ul style="list-style-type: none; padding-left: 0;">
+                    <li><strong>Zarbipour, P., & Akbari, H. (2024).</strong> Assessment of the Spread of Desalination Plant Effluent Study Area: Saqi Koothar Desalination Plant, Bandar Abbas. 1st International Conference on Blue Economy. <a href="https://en.civilica.com/doc/1994723/" target="_blank">Link</a></li>
+                </ul>
             </div>
         </div>
     </section>
-
     <!-- Experience Section -->
     <section id="experience" class="experience">
         <div class="container">
@@ -379,59 +344,82 @@
                 <div class="timeline-item">
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
-                        <div class="timeline-date">May 2025 – Present</div>
-                        <h3>Geospatial Application Development Intern</h3>
-                        <p class="timeline-company">South Carolina Department of Transportation (SCDOT) · Columbia, SC · Hybrid</p>
-                        <p><strong>Supervisor:</strong> <a href="https://www.linkedin.com/in/sicheng-wang-a7603734/" target="_blank" rel="noopener noreferrer">Dr. Sicheng Wang</a></p>
+                        <div class="timeline-date">Jun. 2025 – Present</div>
+                        <h3>Graduate Research Assistant (under supervision of Dr. Nikoo)</h3>
+                        <p class="timeline-company">Sultan Qaboos University, Oman</p>
                         <ul>
-                            <li>Developing advanced web GIS applications using ArcGIS Experience Builder Enterprise</li>
-                            <li>Creating custom widgets with JavaScript and React to extend core functionality</li>
-                            <li>Collaborating with the GIS team to support transportation-related spatial analysis </li>
-                            <li>Integrating real-time data APIs and optimizing user interfaces for enhanced engagement</li>
-                            <li>Gaining hands-on experience with enterprise-level ESRI GIS development workflows </li>
+                            <li>Implemented machine learning and deep learning techniques in ocean engineering applications.</li>
+                            <li>Conducted uncertainty quantification in water engineering.</li>
                         </ul>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
-                        <div class="timeline-date">Oct 2023 – Dec 2023</div>
-                        <h3>Geospatial Data Scientist Intern</h3>
-                        <p class="timeline-company">GEOAPP · Florence, Tuscany, Italy · On-site</p>
-                        <p><strong>Supervisor:</strong> <a href="https://www.linkedin.com/in/davidecolombo75/" target="_blank" rel="noopener noreferrer">Davide Colombo</a></p>
+                        <div class="timeline-date">May. 2024 – Present</div>
+                        <h3>Supervisor and Executive Engineer</h3>
+                        <p class="timeline-company">Iran Construction Engineering Organization (IRCEO), Iran</p>
                         <ul>
-                            <li>Developed a QGIS Plugin to find unstable parts of the land in mining activities</li>
-                            <li>Optimized the processing chain to minimize the effort and request time to process routine tasks</li>
-                            <li>Applied AI and ML to convert semi-automatic tasks to fully automatic</li>
+                            <li>Supervised construction of building structures in compliance with Iran's national building regulations.</li>
                         </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Sep. 2022 – Jun. 2025</div>
+                        <h3>Graduate Teaching and Research Assistant (under Prof. Shafieefar and Dr. Akbari)</h3>
+                        <p class="timeline-company">Tarbiat Modares University and Coastal Hyd Lab, Iran</p>
+                        <ul>
+                            <li>Introduced a new Reliability-Based Design Optimization (RBDO) approach for berm breakwaters with required performance.</li>
+                            <li>Applied machine learning to predict berm breakwater recession with high accuracy.</li>
+                            <li>Analyzed time-dependent reliability in coastal structures, particularly breakwaters.</li>
+                            <li>Served as a teaching assistant for Numerical Methods in Marine Engineering and MIKE Zero software training.</li>
+                            <li>Served as a teaching assistant for Design of Conventional Marine Structures and GeoStudio/PLAXIS 3D software training.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Apr. 2023 – Feb. 2024</div>
+                        <h3>Technical Expert, Civil Computing Laboratory</h3>
+                        <p class="timeline-company">Tarbiat Modares University, Iran</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Ongoing</div>
+                        <h3>Ad Hoc Reviewer</h3>
+                        <p class="timeline-company">Water Research (Elsevier, IF:12.4, Q1)</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
             <h2 class="section-title">Get In Touch</h2>
             <div class="contact-content">
                 <div class="contact-info">
-                    <p>If you are interested in collaborating on research projects, have inquiries about my work, or would like to discuss professional opportunities, please feel free to reach out through any of the following channels:</p>
+                    <p>If you are interested in collaborating on research projects in coastal and ocean engineering, uncertainty quantification, or machine learning applications, have inquiries about my work, or would like to discuss professional/PhD opportunities, please feel free to reach out through any of the following channels:</p>
                     <div class="contact-item">
                         <i class="fas fa-envelope"></i>
-                        <span>HatamiMatt@gmail.com</span>
+                        <span>pouya.zarbipour@modares.ac.ir</span>
                     </div>
                     <div class="contact-item">
                         <i class="fab fa-linkedin"></i>
-                        <a href="https://www.linkedin.com/in/HatamiMatt" target="_blank" rel="noopener noreferrer">linkedin.com/in/HatamiMatt</a>
+                        <a href="https://www.linkedin.com/in/pouya-zarbipour" target="_blank" rel="noopener noreferrer">linkedin.com/in/pouya-zarbipour</a>
                     </div>
                     <div class="contact-item">
                         <i class="fab fa-github"></i>
-                        <a href="https://github.com/HatamiMatt" target="_blank" rel="noopener noreferrer">github.com/HatamiMatt</a>
+                        <a href="https://github.com/pouyazarbipour" target="_blank" rel="noopener noreferrer">github.com/pouyazarbipour</a>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-map-marker-alt"></i>
-                        <span>Department of Agricultural and Biological Engineering<br>1741 Museum Road, Gainesville, FL 32611-0570<br>University of Florida</span>
+                        <span>Sultan Qaboos University, Oman(Previously Tarbiat Modares University, Tehran, Iran)</span>
                     </div>
                 </div>
                 <div class="contact-form">
@@ -451,7 +439,6 @@
             </div>
         </div>
     </section>
-
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script>
         console.log('Inline script test - HTML loaded');
@@ -462,4 +449,4 @@
     </script>
     <script src="script.js"></script>
 </body>
-</html> 
+</html>
