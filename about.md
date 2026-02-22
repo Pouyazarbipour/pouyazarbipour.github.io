@@ -8,17 +8,15 @@ With strong proficiency in Python, MATLAB, Fortran, and specialized software (UQ
 
 ## Education
 
-**Tarbiat Modares University (TMU), Tehran, Iran**  
-Sep. 2021 – Feb. 2024  
-**M.Sc. in Civil Engineering (Coastal, Port, and Marine Structures)** | GPA: 15.03 (out of 20)  
+**Tarbiat Modares University (TMU), Tehran, Iran**, Sep. 2021 – Feb. 2024  
+*M.Sc. in Civil Engineering (Coastal, Port, and Marine Structures)* | GPA: 15.03 (out of 20)  
 
 - Thesis Title: *Probabilistic Evaluation of Effluent Discharge Performance in Desalination*  
 - Grade: Excellent (19.25/20)  
 - Supervisor: Dr. Hassan Akbari
 
-**Technical and Vocational University (TVU), Tehran, Iran**  
-Sep. 2015 – Feb. 2020  
-**Associate's Degree and B.Sc. in Civil Engineering (Construction and Execution)** | GPA: 14.94 (out of 20)
+**Technical and Vocational University (TVU), Tehran, Iran**, Sep. 2015 – Feb. 2020  
+*Associate's Degree and B.Sc. in Civil Engineering (Construction and Execution)* | GPA: 14.94 (out of 20)
 
 ## Achievements and Awards
 
