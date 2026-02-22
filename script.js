@@ -5,9 +5,9 @@ console.log('Script.js loaded!');
 class MultiLineTypeWriter {
     constructor() {
         this.lines = [
-            { id: 'typing-text-1', text: 'hydrology by training,', delay: 1000 },
-            { id: 'typing-text-2', text: 'statistics by passion,', delay: 3000 },
-            { id: 'typing-text-3', text: 'coding by practice.', delay: 5000 }
+            { id: 'typing-text-1', text: 'coastal engineering by training,', delay: 1000 },
+            { id: 'typing-text-2', text: 'uncertainty quantification by rigor,', delay: 3000 },
+            { id: 'typing-text-3', text: 'machine learning by curiosity.', delay: 5000 }
         ];
         this.currentLineIndex = 0;
         this.currentCharIndex = 0;
