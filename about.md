@@ -7,35 +7,35 @@ He has extensive experience in reliability analysis, risk assessment, Reliabilit
 With strong proficiency in Python, MATLAB, Fortran, and specialized software (UQLab, MIKE Zero, Delft3D, CORMIX, ArcGIS Pro, Google Earth Engine, SAP2000, PLAXIS 3D, GeoStudio), he combines advanced computational skills with practical construction supervision and academic teaching experience.
 <br><br>
 ## Education
-<br><br>
+
 **Tarbiat Modares University (TMU), Tehran, Iran**, Sep. 2021 – Feb. 2024  
 *M.Sc. in Civil Engineering (Coastal, Port, and Marine Structures)* | GPA: 15.03 (out of 20)  
 <br><br>
-- Thesis Title: *Probabilistic Evaluation of Effluent Discharge Performance in Desalination*  
-- Grade: Excellent (19.25/20)  
-- Supervisor: Dr. Hassan Akbari
+    - Thesis Title: *Probabilistic Evaluation of Effluent Discharge Performance in Desalination*  
+    - Grade: Excellent (19.25/20)  
+    - Supervisor: Dr. Hassan Akbari
 <br><br>
 **Technical and Vocational University (TVU), Tehran, Iran**, Sep. 2015 – Feb. 2020  
 *Associate's Degree and B.Sc. in Civil Engineering (Construction and Execution)* | GPA: 14.94 (out of 20)
 <br><br>
 ## Achievements and Awards
-<br><br>
-- **First-ranked graduate of the Marine Structures Department, Iran** (2023)  
+
+  - **First-ranked graduate of the Marine Structures Department, Iran** (2023)  
   Awarded for M.Sc. thesis | Department ranked 102nd in the world for civil engineering according to US News.
 <br><br>
-- **Governmental Fellowship, Iran** (Fall 2021)  
+  - **Governmental Fellowship, Iran** (Fall 2021)  
   Awarded for M.Sc. studies | Tarbiat Modares University – Ranked 7th in Iran according to US News.
 <br><br>
-- **Governmental Fellowship, Iran** (Fall 2015)  
+  - **Governmental Fellowship, Iran** (Fall 2015)  
   Awarded for Associate's Degree and B.Sc. studies | Technical and Vocational University
-<br><br>
+
 ## Research Interests
-<br><br>
-* **Uncertainty Quantification**
-* **Coastal and Ocean Engineering**
-* **Machine Learning and Deep Learning Applications**
-* **Remote Sensing**
-* **Causal Inference**
-* **Hydrodynamics**
+
+  * **Uncertainty Quantification**
+  * **Coastal and Ocean Engineering**
+  * **Machine Learning and Deep Learning Applications**
+  * **Remote Sensing**
+  * **Causal Inference**
+  * **Hydrodynamics**
 <br><br>
 Additional topics: Reliability-Based Design Optimization (RBDO), time-dependent reliability of coastal structures, quantum machine learning, and physics-informed neural networks.
