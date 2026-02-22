@@ -18,7 +18,7 @@ With strong proficiency in Python, MATLAB, Fortran, and specialized software (UQ
 *Associate's Degree and B.Sc. in Civil Engineering (Construction and Execution)* | GPA: 14.94 (out of 20)
 <br><br>
 ## Achievements and Awards
-  - **First-ranked graduate of the Marine Structures Department, Iran** (2023)  
+  - **First-ranked graduate of the Marine Structures Department, Iran** (2024)  
   Awarded for M.Sc. thesis | Department ranked 102nd in the world for civil engineering according to US News.
   - **Governmental Fellowship, Iran** (Fall 2021)  
   Awarded for M.Sc. studies | Tarbiat Modares University – Ranked 7th in Iran according to US News.
@@ -33,5 +33,5 @@ With strong proficiency in Python, MATLAB, Fortran, and specialized software (UQ
   * **Remote Sensing**
   * **Causal Inference**
   * **Hydrodynamics**
-
+<br><br>
 Additional topics: Reliability-Based Design Optimization (RBDO), time-dependent reliability of coastal structures, quantum machine learning, and physics-informed neural networks.
