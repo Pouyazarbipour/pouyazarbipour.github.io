@@ -1,65 +1,15 @@
-# My Journey
+Currently a **Graduate Research Assistant** in **Dr. Mohammad Reza Nikoo**’s lab at **Sultan Qaboos University, Oman** (Jun. 2025 – Present), where he implements machine learning and deep learning techniques in ocean engineering applications and conducts uncertainty quantification in water engineering. Pouya Zarbipour-Lakposhteh received his M.Sc. in Civil Engineering (Coastal, Port, and Marine Structures) from [Tarbiat Modares University](https://modares.ac.ir/en) in February 2024 (GPA: 15.03/20, thesis grade: Excellent 19.25/20) and his Associate’s Degree and B.Sc. in Civil Engineering (Construction and Execution) from **Technical and Vocational University (TVU)**, Tehran, in February 2020 (GPA: 14.94/20).
 
-I am currently a **PhD student at the <a href="https://www.ufl.edu/" target="_blank">University of Florida</a>**, working in the **Climate Resilience Lab** under <a href="https://nassernajibi.github.io/lab/" target="_blank">Dr. Nasser Najibi’s research group</a> in the Department of Agricultural & Biological Engineering.  
+He has extensive experience in reliability analysis, risk assessment, Reliability-Based Design Optimization (RBDO), causal inference, and AI-driven modeling of coastal and marine structures. His work includes probabilistic evaluation of desalination outfalls, Bayesian reliability design of reshaping berm breakwaters, quantum machine learning for wave overtopping, harmful algal bloom prediction, and development of more than 10 Python-based tools for coastal engineering applications. He also serves as **Supervisor and Executive Engineer** at the Iran Construction Engineering Organization (IRCEO) and previously worked as Graduate Teaching & Research Assistant at Tarbiat Modares University and Coastal Hyd Lab under Prof. Mehdi Shafieefar and Dr. Hassan Akbari. He is an Ad Hoc Reviewer for *Water Research* (Elsevier, IF: 12.4, Q1).
 
-<br>
+With strong proficiency in Python, MATLAB, Fortran, and specialized software (UQLab, MIKE Zero, Delft3D, CORMIX, ArcGIS Pro, Google Earth Engine, SAP2000, PLAXIS 3D, GeoStudio), he combines advanced computational skills with practical construction supervision and academic teaching experience.
 
-My research focuses on **Hydroclimate Extremes & Risk**, specifically:  
+## Research Interests
+* **Uncertainty Quantification**
+* **Coastal and Ocean Engineering**
+* **Machine Learning and Deep Learning Applications**
+* **Remote Sensing**
+* **Causal Inference**
+* **Hydrodynamics**
 
-<br>
-
-- Characterizing and modeling **hydroclimatic extremes** (floods, droughts, extreme precipitation, heatwaves)  
-- Developing **stochastic decision frameworks** to improve infrastructure and ecosystem resilience under deep uncertainty  
-- Integrating **process-based and ensemble approaches** to assess climate vulnerability across water, energy, transportation, agriculture, and public health sectors  
-
-<br>
-
----
-
-<br>
-
-## Previous Research & Education
-
-<br>
-
-### University of South Carolina (USA)
-
-I began my PhD at the <a href="https://www.sc.edu/" target="_blank">University of South Carolina</a> in Civil Engineering within the iWERS lab, where I conducted research under **Dr. Erfan Goharian**.  
-
-<br>
-
-Concurrently, I pursued graduate-level coursework in Computer Science before transferring to UF after my advisor resigned.  
-
-<br>
-
-### University of Groningen (Netherlands)
-
-I spent **4 months** at the <a href="https://www.rug.nl/" target="_blank">University of Groningen</a> in the SCIO cluster (Sustainable Cooperation, Institutions & Organizations).  
-
-<br>
-
-There, I developed an **agent-based model** simulating human behavior during cascading disasters to support resilience planning.  
-
-<br>
-
-### Politecnico di Milano (Italy)
-
-I earned my **MSc in Civil Engineering for Risk Mitigation (CERM)** at <a href="https://www.polimi.it/en/" target="_blank">Politecnico di Milano</a>.  
-
-<br>
-
-My thesis—*“Application of Deep Learning and Remote Sensing in Disaster Management”*—leveraged satellite data and AI to assess hazards.  
-
-<br>
-
-### International University of Imam Khomeini (Iran)
-
-I completed my **BSc in Civil Engineering** at <a href="https://www.ikiu.ac.ir/" target="_blank">IKIU</a>.  
-
-<br>
-
-My undergraduate focus on river hydrology and hydraulics sparked my enduring interest in flood risk and disaster resilience.  
-
-<br>
-
----
+Additional topics: Reliability-Based Design Optimization (RBDO), time-dependent reliability of coastal structures, quantum machine learning, and physics-informed neural networks.
