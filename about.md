@@ -32,3 +32,16 @@ With strong proficiency in Python, MATLAB, Fortran, and specialized software (UQ
   * **Hydrodynamics**
 <br><br>
 Additional topics: Reliability-Based Design Optimization (RBDO), time-dependent reliability of coastal structures, quantum machine learning, and physics-informed neural networks.
+<br><br>
+## Online Profiles
+You can find me on the internet:
+* [Google Scholar](https://scholar.google.com/citations?user=V5aIzssAAAAJ&hl=en&authuser=1)
+* [LinkedIn](https://www.linkedin.com/in/pouya-zarbipour/)
+* [Personal Website](https://pouyazarbipour.github.io/)
+* [Scopus](https://www.scopus.com/authid/detail.uri?origin=citedby&authorId=59362450400&zone=#tab=cited-by)
+* [GitHub](https://github.com/pouyazarbipour)
+* [ORCiD](https://orcid.org/0000-0002-8024-9062)
+* [ResearchGate](https://www.researchgate.net/profile/Pouya-Zarbipour)
+* [X](https://x.com/pouyazarbipour)
+<br><br>
+#### How to reach me: The best way to contact me is through [email](mailto:pouyazarbipour@gmail.com).
