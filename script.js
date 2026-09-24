@@ -268,7 +268,7 @@ function handleFormSubmit(e) {
                 text: error.text,
                 user: error.user
             });
-            alert('Sorry, there was an error sending your message. Error: ' + error.text + '. Please try again or contact me directly at HatamiMatt@gmail.com');
+            alert('Sorry, there was an error sending your message. Error: ' + error.text + '. Please try again or contact me directly at pouyazarbipour@gmail.com');
         })
         .finally(function() {
             // Reset button state
