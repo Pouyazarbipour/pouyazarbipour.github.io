@@ -1,0 +1,146 @@
+[
+ {
+  "type": "journal",
+  "year": "2026",
+  "title": "A Reliable Machine Learning Tool for Berm Breakwater Recession Prediction",
+  "venue": "Ocean Engineering",
+  "authors": "Zarbipour, Jamali Rovesht, Akbari & Shafieefar",
+  "doi": "https://doi.org/10.1016/j.oceaneng.2026.128234",
+  "status": "published",
+  "cats": "ml coastal",
+  "first": true
+ },
+ {
+  "type": "journal",
+  "year": "2026",
+  "title": "Bridging Causality and Deep Learning for Harmful Algal Bloom Prediction",
+  "venue": "Water Research, 125492",
+  "authors": "Zarbipour, Nikoo, Akbari, Nazari & Karimi",
+  "doi": "https://doi.org/10.1016/j.watres.2026.125492",
+  "status": "published",
+  "cats": "ml causal",
+  "first": true
+ },
+ {
+  "type": "journal",
+  "year": "2026",
+  "title": "Spatiotemporal prediction of chlorophyll-a in semi-enclosed gulfs using a hybrid graph neural network-transformer framework with satellite data and causal analysis",
+  "venue": "Scientific Reports",
+  "authors": "Zarbipour, Akbari, Nikoo & Kazemi",
+  "doi": "https://doi.org/10.1038/s41598-026-42388-0",
+  "status": "published",
+  "cats": "ml causal",
+  "first": true
+ },
+ {
+  "type": "journal",
+  "year": "2026",
+  "title": "Reliability design of reshaping berm breakwaters based on a Bayesian modification",
+  "venue": "Ocean Engineering",
+  "authors": "Zarbipour, Jamali Rovesht, Akbari & Shafieefar",
+  "doi": "https://doi.org/10.1016/j.oceaneng.2026.124594",
+  "status": "published",
+  "cats": "reliability coastal",
+  "first": true
+ },
+ {
+  "type": "journal",
+  "year": "2026",
+  "title": "Quantum machine learning for wave overtopping estimation: Integrating with causal inference and uncertainty quantification",
+  "venue": "Ocean Engineering, 343, 123482",
+  "authors": "Zarbipour, Akbari & Nikoo",
+  "doi": "https://doi.org/10.1016/j.oceaneng.2025.123482",
+  "status": "published",
+  "cats": "ml causal coastal",
+  "first": true
+ },
+ {
+  "type": "journal",
+  "year": "2026",
+  "title": "Probabilistic analysis of empirical berm recession formulas considering environmental parameter dependence",
+  "venue": "Applied Ocean Research",
+  "authors": "Jamali Rovesht, Shafieefar, Akbari & Zarbipour",
+  "doi": "https://doi.org/10.1016/j.apor.2026.105031",
+  "status": "published",
+  "cats": "reliability coastal",
+  "first": false
+ },
+ {
+  "type": "journal",
+  "year": "2026",
+  "title": "Physics-informed neural operator with uncertainty quantification for spatial reconstruction of SWAN wave fields",
+  "venue": "Applied Soft Computing Journal",
+  "authors": "Etri, Jamali Rovesht, Nikoo & Zarbipour",
+  "doi": null,
+  "status": "",
+  "cats": "ml coastal",
+  "first": false
+ },
+ {
+  "type": "journal",
+  "year": "2026",
+  "title": "Causal-Aware Physics-Informed Neural Surrogate with Aleatoric and Epistemic Uncertainty for Wave Overtopping Prediction",
+  "venue": "Engineering Applications of Artificial Intelligence",
+  "authors": "Zarbipour, Jamali Rovesht & Nikoo",
+  "doi": null,
+  "status": "",
+  "cats": "ml causal coastal",
+  "first": true
+ },
+ {
+  "type": "journal",
+  "year": "2026",
+  "title": "Nature Based Retrofit Solutions for Existing Berm Breakwaters: Reliability Assessment under Climate Change Impacts",
+  "venue": "Applied Ocean Research",
+  "authors": "Jamali Rovesht, Zarbipour, Akbari & Shafieefar",
+  "doi": null,
+  "status": "review",
+  "cats": "reliability coastal",
+  "first": false
+ },
+ {
+  "type": "journal",
+  "year": "2026",
+  "title": "Reliability-Based Design Optimization of Berm Breakwaters with Different Reshaping and Dependency Structures",
+  "venue": "Manuscript in preparation",
+  "authors": "Zarbipour & Akbari",
+  "doi": null,
+  "status": "prep",
+  "cats": "reliability coastal",
+  "first": true
+ },
+ {
+  "type": "journal",
+  "year": "2025",
+  "title": "Reliability Analysis of Berm Breakwaters based on the environmental data on the Northern coasts of Oman sea",
+  "venue": "International Journal of Coastal, Offshore and Environmental Engineering, e248038",
+  "authors": "Zarbipour, Akbari & SheykhBahai",
+  "doi": "https://doi.org/10.22034/ijcoe.2026.513763.1154",
+  "status": "published",
+  "cats": "reliability coastal",
+  "first": true
+ },
+ {
+  "type": "journal",
+  "year": "2024",
+  "title": "Reliability design of seawater desalination outfalls based on a novel probabilistic environmental assessment",
+  "venue": "Ocean Engineering, 313, 119465",
+  "authors": "Zarbipour & Akbari",
+  "doi": "https://doi.org/10.1016/j.oceaneng.2024.119465",
+  "status": "published",
+  "cats": "reliability coastal",
+  "first": true
+ },
+ {
+  "type": "conference",
+  "year": "2024",
+  "title": "Assessment of the Spread of Desalination Plant Effluent Study Area: Saqi Koothar Desalination Plant, Bandar Abbas",
+  "venue": "1st International Conference on Blue Economy",
+  "authors": "Zarbipour & Akbari",
+  "doi": null,
+  "url": "https://en.civilica.com/doc/1994723",
+  "status": "published",
+  "cats": "",
+  "first": true
+ }
+]

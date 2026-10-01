@@ -13,14 +13,42 @@
       const open = nav.classList.toggle('open');
       menu.setAttribute('aria-expanded', open);
     });
-    // publication filters
-    const buttons = [...document.querySelectorAll('.filter-btn')];
-    const items = [...document.querySelectorAll('.pub-item[data-categories]')];
-    buttons.forEach(btn => btn.addEventListener('click', () => {
-      const f = btn.dataset.filter;
-      items.forEach(i => i.style.display = f === 'all' || i.dataset.categories.split(/\s+/).includes(f) ? '' : 'none');
-      buttons.forEach(b => b.classList.toggle('active', b === btn));
-    }));
+    // data-driven publications + stats (fall back to the static HTML if fetch fails)
+    const esc = t => String(t == null ? '' : t).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+    const pubHTML = (p, filt) => {
+      const b = [];
+      if (p.first) b.push('<span class="pub-badge first">First author</span>');
+      if (p.status === 'review') b.push('<span class="pub-badge review">Under review</span>');
+      if (p.status === 'prep') b.push('<span class="pub-badge prep">In preparation</span>');
+      const url = p.doi || p.url;
+      const act = url ? `<a href="${esc(url)}" rel="noopener" target="_blank">${p.type === 'conference' ? 'Link' : 'DOI'} ↗</a>` : '';
+      const cat = filt ? ` data-categories="${esc(p.cats)}"` : '';
+      return `<article class="pub-item"${cat}><div class="pub-year">${esc(p.year)}</div><div><h3>${esc(p.title)}</h3><div class="pub-meta"><span class="pub-venue">${esc(p.venue)}</span> · ${b.length ? `<span class="pub-badges">${b.join('')}</span> ` : ''}<span class="pub-authors">${esc(p.authors)}</span></div></div><div class="pub-action">${act}</div></article>`;
+    };
+    const bindFilters = () => {
+      const buttons = [...document.querySelectorAll('.filter-btn')];
+      const items = [...document.querySelectorAll('.pub-item[data-categories]')];
+      buttons.forEach(btn => btn.addEventListener('click', () => {
+        const f = btn.dataset.filter;
+        items.forEach(i => i.style.display = f === 'all' || i.dataset.categories.split(/\s+/).includes(f) ? '' : 'none');
+        buttons.forEach(x => x.classList.toggle('active', x === btn));
+      }));
+    };
+    const setText = (id, v) => { const n = document.getElementById(id); if (n && v != null) n.textContent = v; };
+    const loadJSON = u => fetch(u + '?v=' + Date.now(), { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error(u); return r.json(); });
+    loadJSON('data/publications.json').then(list => {
+      const journals = list.filter(p => p.type !== 'conference'), confs = list.filter(p => p.type === 'conference');
+      const put = (id, items, filt) => { const n = document.getElementById(id); if (n && items.length) n.innerHTML = items.map(p => pubHTML(p, filt)).join(''); };
+      put('journal-list', journals, true);
+      put('conf-list', confs, false);
+      put('recent-contributions', journals.slice(0, 5), false);
+      setText('journal-count', journals.length);
+    }).catch(() => {}).finally(bindFilters);
+    loadJSON('scholar-stats.json').then(s => {
+      if (Number.isFinite(+s.citations)) setText('stat-citations', (+s.citations).toLocaleString());
+      if (Number.isFinite(+s.h_index)) setText('stat-h', (+s.h_index).toLocaleString());
+      if (s.source) setText('stat-source', s.source + ' · ' + (s.updated || ''));
+    }).catch(() => {});
     // contact form (EmailJS, same service as the previous site)
     const form = document.getElementById('contact-form');
     if (form && window.emailjs) {
