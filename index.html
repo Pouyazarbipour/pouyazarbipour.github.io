@@ -1,519 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pouya Zarbipour - Personal Website</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <script src="config.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="imageLoader.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Pouya Zarbipour — coastal and ocean engineering, uncertainty quantification, machine learning, remote sensing, causal inference and hydrodynamics.">
+<meta name="theme-color" content="#062f3a">
+<title>Pouya Zarbipour | Coastal Engineering, Uncertainty &amp; Machine Learning</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="site.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <ul class="nav-menu">
-                <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#work" class="nav-link">Work</a></li>
-                <li><a href="#tools" class="nav-link">Tools</a></li>
-                <li><a href="#videos" class="nav-link">Presentations</a></li>
-                <li><a href="#research" class="nav-link">Research</a></li>
-                <li><a href="#experience" class="nav-link">Experience</a></li>
-                <li><a href="#skills" class="nav-link">Skills</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </div>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="Pouya Zarbipour home"><span class="brand-mark">PZ</span><span class="brand-name">Pouya Zarbipour, M.Sc.</span></a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="active" href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="index.html#contact">Contact</a>
     </nav>
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1 class="hero-title">Pouya Zarbipour, M.Sc.</h1>
-                    <div class="typing-container">
-                        <div class="typing-line">
-                            <span class="static-text">I do</span>
-                        </div>
-                        <div class="typing-line">
-                            <span class="typing-text" id="typing-text-1"></span>
-                        </div>
-                        <div class="typing-line">
-                            <span class="typing-text" id="typing-text-2"></span>
-                        </div>
-                        <div class="typing-line">
-                            <span class="typing-text" id="typing-text-3"></span>
-                        </div>
-                    </div>
-                    <p class="hero-description">
-                        Uncertainty Quantification • Coastal & Ocean Engineering • Machine Learning & Deep Learning • Remote Sensing • Causal Inference • Hydrodynamics
-                    </p>
-                    <div class="hero-buttons">
-                        <a href="assets/CV - Pouya Zarbipour.pdf" target="_blank" class="btn btn-primary">Download CV</a>
-                        <a href="#about" class="btn btn-secondary">My Journey</a>
-                    </div>
-                    <div class="hero-social">
-                        <a href="https://scholar.google.com/citations?user=V5aIzssAAAAJ&hl=en" target="_blank" class="social-link">Google Scholar</a>
-                        <a href="https://www.linkedin.com/in/pouya-zarbipour" target="_blank" class="social-link">LinkedIn</a>
-                        <a href="mailto:pouyazarbipour@gmail.com" class="social-link">Email</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-       
-        <!-- Downward Arrow Scroll Button -->
-        <button class="scroll-down-arrow" id="scroll-down-arrow" aria-label="Scroll down">
-            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="18" cy="18" r="18" fill="rgba(30,41,59,0.5)"/>
-                <path d="M12 16L18 22L24 16" stroke="#e0e7ff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-        </button>
-    </section>
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div id="about-container">
-                <h3>Research Interests</h3>
-                <p>Coastal and Ocean Engineering; Probabilistic and Uncertainty Quantification Analyses; Machine Learning and Deep Learning Applications; Remote Sensing; Causal Inference; and Hydrodynamics.</p>
-                
-                <h3>Education</h3>
-                <p><strong>Tarbiat Modares University (TMU), Tehran, Iran</strong><br>
-                Sep. 2021 – Feb. 2024<br>
-                M.Sc. in Civil Engineering (Coastal, Port, and Marine Structures) | GPA: 15.03 (out of 20)<br>
-                · Thesis Title: Probabilistic Evaluation of Effluent Discharge Performance in Desalination. | (Excellent grade 19.25/20)<br>
-                · Supervisor: Dr. Hassan Akbari</p>
-                
-                <p><strong>Technical and Vocational University (TVU), Tehran, Iran</strong><br>
-                Sep. 2015 – Feb. 2020<br>
-                Associate's Degree and B.Sc. in Civil Engineering (Construction and Execution) | GPA: 14.94 (out of 20)</p>
-                
-                <h3>Achievements and Awards</h3>
-                <ul>
-                    <li>First-ranked graduate of the Marine Structures Department, Iran – <strong>2024</strong><br>
-                    Awarded for M.Sc. thesis | Department ranked 102nd in the world for civil engineering according to US News.</li>
-                    <li>Governmental Fellowship, Iran – Fall 2021<br>
-                    Awarded for M.Sc. studies | Tarbiat Modares University – Ranked <strong>6th</strong> in Iran according to US News.</li>
-                    <li>Governmental Fellowship, Iran – Fall 2015<br>
-                    Awarded for Associate's Degree and B.Sc. studies | Technical and Vocational University</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <!-- Work Section -->
-    <section id="work" class="work">
-        <div class="container">
-            <h2 class="section-title">Featured Work</h2>
-            <p style="text-align:center; margin-bottom:2rem;">
-              To see a full list of my projects and software tools, check the Repositories section and my 
-              <a href="https://github.com/Pouyazarbipour?tab=repositories&q=&type=&language=&sort=" target="_blank" rel="noopener noreferrer">GitHub page</a>.
-            </p>
-           
-            <!-- Filter Buttons -->
-            <div class="work-filters">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="machine-learning">Machine Learning</button>
-                <button class="filter-btn" data-filter="coastal">Coastal Engineering</button>
-                <button class="filter-btn" data-filter="uq">Uncertainty Quantification</button>
-            </div>
-           
-            <div class="work-grid">
-                <div class="work-card" data-category="machine-learning coastal">
-                    <div class="work-image">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <div class="work-content">
-                        <h3>XGBoost-Optuna Berm Breakwater Recession Prediction</h3>
-                        <p>A Reliable Machine Learning Tool for Berm Breakwater Recession Prediction. Developed as part of advanced coastal structure reliability analysis.</p>
-                        <div class="work-tags">
-                            <span class="tag">XGBoost</span>
-                            <span class="tag">Optuna</span>
-                            <span class="tag">Coastal Engineering</span>
-                        </div>
-                        <div class="work-links-row">
-                            <a href="https://github.com/Pouyazarbipour/The-XG-Boost-Berm-Breakwater-Recession-Prediction-tools" target="_blank" class="work-link">View on GitHub</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="work-card" data-category="machine-learning uq">
-                    <div class="work-image">
-                        <i class="fas fa-waveform"></i>
-                    </div>
-                    <div class="work-content">
-                        <h3>Quantum Machine Learning for Wave Overtopping</h3>
-                        <p>Quantum machine learning for wave overtopping estimation: Integrating with causal inference and uncertainty quantification. Includes Quantum SVM implementation.</p>
-                        <div class="work-tags">
-                            <span class="tag">Quantum ML</span>
-                            <span class="tag">Causal Inference</span>
-                            <span class="tag">Hydrodynamics</span>
-                        </div>
-                        <div class="work-links-row">
-                            <a href="https://doi.org/10.1016/j.oceaneng.2025.123482" target="_blank" class="work-link">Read Paper</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="work-card" data-category="coastal uq">
-                    <div class="work-image">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <div class="work-content">
-                        <h3>Reliability Design of Seawater Desalination Outfalls</h3>
-                        <p>Reliability design of seawater desalination outfalls based on a novel probabilistic environmental assessment. Thesis-related work with excellent grade.</p>
-                        <div class="work-tags">
-                            <span class="tag">Reliability Analysis</span>
-                            <span class="tag">Desalination</span>
-                            <span class="tag">Probabilistic Assessment</span>
-                        </div>
-                        <div class="work-links-row">
-                            <a href="https://doi.org/10.1016/j.oceaneng.2024.119465" target="_blank" class="work-link">Read Paper</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="work-card" data-category="machine-learning coastal">
-                    <div class="work-image">
-                        <i class="fas fa-water"></i>
-                    </div>
-                    <div class="work-content">
-                        <h3>Causal-Aware PINN Surrogate for Wave Overtopping</h3>
-                        <p>Causal-Aware Physics-Informed Neural Surrogate with Aleatoric and Epistemic Uncertainty for Wave Overtopping Prediction.</p>
-                        <div class="work-tags">
-                            <span class="tag">PINN</span>
-                            <span class="tag">Causal Inference</span>
-                            <span class="tag">Uncertainty Quantification</span>
-                        </div>
-                        <div class="work-links-row">
-                            <a href="https://github.com/Pouyazarbipour/The-Causal-Physics-Informed-UQ-Overtopping-Prediction-Tool" target="_blank" class="work-link">View on GitHub</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="work-card" data-category="machine-learning remote-sensing">
-                    <div class="work-image">
-                        <i class="fas fa-satellite"></i>
-                    </div>
-                    <div class="work-content">
-                        <h3>Graph Neural Network for Chlorophyll-a Prediction</h3>
-                        <p>Spatiotemporal prediction of chlorophyll-a in semi-enclosed gulfs using a hybrid graph neural network-transformer framework with satellite data and causal analysis.</p>
-                        <div class="work-tags">
-                            <span class="tag">GNN</span>
-                            <span class="tag">Remote Sensing</span>
-                            <span class="tag">Harmful Algal Blooms</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="work-card" data-category="coastal uq">
-                    <div class="work-image">
-                        <i class="fas fa-mountain"></i>
-                    </div>
-                    <div class="work-content">
-                        <h3>Reliability-Based Design Optimization of Berm Breakwaters</h3>
-                        <p>Reliability-Based Design Optimization of Berm Breakwaters with Different Reshaping and Dependency Structures. Also includes Bayesian modification approach and case study at Chabahar region.</p>
-                        <div class="work-tags">
-                            <span class="tag">RBDO</span>
-                            <span class="tag">Berm Breakwaters</span>
-                            <span class="tag">Bayesian</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Tools Section -->
-    <section id="tools" class="section">
-        <div class="container">
-            <h2>Tools/Datasets</h2>
-            <p style="text-align:center; margin-bottom:2rem;">Developed more than 10 Python-based tools for coastal engineering applications (Dec. 2021 – Present). Full list and source code available on my GitHub page.</p>
-            <div class="work-grid">
-                <div class="work-card" data-category="coding coastal">
-                    <div class="work-image">
-                        <i class="fas fa-tools"></i>
-                    </div>
-                    <div class="work-content">
-                        <h3>Coastal Engineering Python Tool Suite</h3>
-                        <p>More than 10 Python-based tools including sediment transport calculators, breakwater design calculators, and various coastal hydrodynamics utilities. Programmed and maintained at Tarbiat Modares University Coastal Hyd Lab.</p>
-                        <div class="work-tags">
-                            <span class="tag">Python</span>
-                            <span class="tag">Coastal Engineering</span>
-                            <span class="tag">Hydrodynamics</span>
-                        </div>
-                        <div class="work-links-row">
-                            <a href="https://github.com/Pouyazarbipour?tab=repositories&q=&type=&language=&sort=" target="_blank" class="work-link">View on GitHub</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="work-card" data-category="machine-learning coastal">
-                    <div class="work-image">
-                        <i class="fas fa-chart-bar"></i>
-                    </div>
-                    <div class="work-content">
-                        <h3>XGBoost Berm Breakwater Recession Prediction Tool</h3>
-                        <p>Advanced XGBoost-Optuna model for high-accuracy prediction of berm breakwater recession with integrated uncertainty quantification and causal inference.</p>
-                        <div class="work-tags">
-                            <span class="tag">XGBoost</span>
-                            <span class="tag">Optuna</span>
-                            <span class="tag">Coastal Structures</span>
-                        </div>
-                        <div class="work-links-row">
-                            <a href="https://github.com/Pouyazarbipour/The-XG-Boost-Berm-Breakwater-Recession-Prediction-tools" target="_blank" class="work-link">View on GitHub</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="work-card" data-category="machine-learning uq">
-                    <div class="work-image">
-                        <i class="fas fa-atom"></i>
-                    </div>
-                    <div class="work-content">
-                        <h3>Causal-PINN-UQ Wave Overtopping Prediction Tool</h3>
-                        <p>Physics-informed neural operator with uncertainty quantification for spatial reconstruction of SWAN wave fields and wave overtopping estimation.</p>
-                        <div class="work-tags">
-                            <span class="tag">PINN</span>
-                            <span class="tag">Wave Overtopping</span>
-                            <span class="tag">Uncertainty Quantification</span>
-                        </div>
-                        <div class="work-links-row">
-                            <a href="https://github.com/Pouyazarbipour/The-Causal-Physics-Informed-UQ-Overtopping-Prediction-Tool" target="_blank" class="work-link">View on GitHub</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Presentations Section -->
-    <section id="videos" class="videos">
-        <div class="container">
-            <h2 class="section-title">Presentations & Conferences</h2>
-            <div class="youtube-videos">
-                <div class="youtube-video-row">
-                    <div class="youtube-desc-col">
-                        <h3>Assessment of the Spread of Desalination Plant Effluent – 1st International Conference on Blue Economy</h3>
-                        <p><strong>Date:</strong> 2024</p>
-                        <p>Conference presentation on the Saqi Koothar Desalination Plant, Bandar Abbas. Probabilistic environmental assessment and effluent spread analysis.</p>
-                        <a href="https://en.civilica.com/doc/1994723/" target="_blank" class="btn btn-primary">View Conference Paper</a>
-                    </div>
-                </div>
-                <div class="youtube-video-row">
-                    <div class="youtube-desc-col">
-                        <h3>M.Sc. Thesis Defense Presentation</h3>
-                        <p><strong>Date:</strong> Feb. 2024</p>
-                        <p>Probabilistic Evaluation of Effluent Discharge Performance in Desalination – Excellent grade 19.25/20 at Tarbiat Modares University.</p>
-                    </div>
-                </div>
-                <div class="youtube-video-row">
-                    <div class="youtube-desc-col">
-                        <h3>Research Seminars & Additional Presentations</h3>
-                        <p>Ongoing presentations on reliability-based design of berm breakwaters, quantum ML applications in ocean engineering, and causal inference in coastal systems at Tarbiat Modares University, Sultan Qaboos University, and international forums.</p>
-                        <p>Check LinkedIn and Google Scholar for latest updates and recordings.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Research Section -->
-    <section id="research" class="research">
-        <div class="container">
-            <h2 class="section-title">Research & Publications</h2>
-            <div class="research-content">
-                <p>For an up-to-date list of my research and citations, please visit my <a href="https://scholar.google.com/citations?user=V5aIzssAAAAJ&hl=en" target="_blank">Google Scholar profile</a>.</p>
-                <div style="height: 1.0em;"></div>
-                <h3>Journal Publications</h3>
-                <ul style="list-style-type: none; padding-left: 0;">
-                    <li>1. <strong>Zarbipour, P.</strong>, Nikoo, M. R., Akbari, H., Nazari, R. & Karimi, M. (2026). Bridging Causality and Deep Learning for Harmful Algal Bloom Prediction. <em>Water Research</em>, 125492. <a href="https://doi.org/10.1016/j.watres.2026.125492" target="_blank">DOI</a></li>
-                    <div style="height: 0.5em;"></div>
-                    <li>2. <strong>Zarbipour, P.</strong>, Jamali Rovesht, A., Akbari, H. & Shafieefar, M. (2026). Reliability design of reshaping berm breakwaters based on a Bayesian modification. <em>Ocean Engineering</em>. <a href="https://doi.org/10.1016/j.oceaneng.2026.124594" target="_blank">DOI</a></li>
-                    <div style="height: 0.5em;"></div>
-                    <li>3. <strong>Zarbipour, P.</strong>, Akbari, H., & Nikoo, M. R. (2026). Quantum machine learning for wave overtopping estimation: Integrating with causal inference and uncertainty quantification. <em>Ocean Engineering</em>, 343, 123482. <a href="https://doi.org/10.1016/j.oceaneng.2025.123482" target="_blank">DOI</a></li>
-                    <div style="height: 0.5em;"></div>
-                    <li>4. <strong>Zarbipour, P.</strong>, & Akbari, H. (2024). Reliability design of seawater desalination outfalls based on a novel probabilistic environmental assessment. <em>Ocean Engineering</em>, 313, 119465. <a href="https://doi.org/10.1016/j.oceaneng.2024.119465" target="_blank">DOI</a></li>
-                    <div style="height: 0.5em;"></div>
-                    <li>6. <strong>Zarbipour, P.</strong>, Akbari, H., & SheykhBahai, A. (2025). Reliability Analysis of Berm Breakwaters based on the environmental data on the Northern coasts of Oman sea. <em>International Journal of Coastal, Offshore and Environmental Engineering</em>, e248038. <a href="https://doi.org/10.22034/ijcoe.2026.513763.1154" target="_blank">DOI</a></li>
-                    <div style="height: 0.5em;"></div>
-                    <li>8. Jamali Rovesht, A., Shafieefar, M., Akbari, H. & <strong>Zarbipour, P.</strong> (2026). Probabilistic analysis of empirical berm recession formulas considering environmental parameter dependence. <em>Applied Ocean Research</em>. <a href="https://doi.org/10.1016/j.apor.2026.105031" target="_blank">DOI</a></li>
-                    <div style="height: 0.5em;"></div>
-                    <li>14. <strong>Zarbipour, P.</strong>, Akbari, H., Nikoo, M. R. & Kazemi, A. (2026). Spatiotemporal prediction of chlorophyll-a in semi-enclosed gulfs using a hybrid graph neural network-transformer framework with satellite data and causal analysis. <em>Scientific Reports</em>. <a href="https://doi.org/10.1038/s41598-026-42388-0" target="_blank">DOI</a></li>
-                </ul>
-                <div style="height: 1.0em;"></div>
-                <h3>Conference Publications</h3>
-                <ul style="list-style-type: none; padding-left: 0;">
-                    <li>1. <strong>Zarbipour, P.</strong>, & Akbari, H. (2024). Assessment of the Spread of Desalination Plant Effluent Study Area: Saqi Koothar Desalination Plant, Bandar Abbas. 1st International Conference on Blue Economy. <a href="https://en.civilica.com/doc/1994723/" target="_blank">Link</a></li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <!-- Experience Section -->
-    <section id="experience" class="experience">
-        <div class="container">
-            <h2 class="section-title">Professional Experience</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-date">Jun. 2025 – Present</div>
-                        <h3>Graduate Research Assistant (under supervision of Dr. Nikoo)</h3>
-                        <p class="timeline-company">Sultan Qaboos University, Oman</p>
-                        <ul>
-                            <li>Developing and implementing advanced machine learning and deep learning models for ocean and water engineering applications, with a focus on predictive modeling and design decision-making.</li>
-                            <li>Conducted uncertainty quantification in water engineering.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-date">May. 2024 – Present</div>
-                        <h3>Supervisor and Executive Engineer</h3>
-                        <p class="timeline-company">Iran Construction Engineering Organization (IRCEO), Iran</p>
-                        <ul>
-                            <li>Supervised construction of building structures in compliance with Iran's national building regulations.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-date">Sep. 2022 – Jun. 2025</div>
-                        <h3>Graduate Teaching and Research Assistant (under Prof. Shafieefar and Dr. Akbari)</h3>
-                        <p class="timeline-company">Tarbiat Modares University and Coastal Hyd Lab, Iran</p>
-                        <ul>
-                            <li>Performing probabilistic and uncertainty quantification analyses in ocean and coastal engineering systems, supporting reliability-informed design and risk assessment.</li>
-                            <li>Preparing research manuscripts and conference contributions on ML/DL-based modeling, causal inference, and uncertainty quantification in ocean and coastal engineering.</li>
-                            <li>Introduced a new Reliability-Based Design Optimization (RBDO) approach for berm breakwaters with required performance.</li>
-                            <li>Applied machine learning to predict berm breakwater recession with high accuracy.</li>
-                            <li>Analyzed time-dependent reliability in coastal structures, particularly breakwaters.</li>
-                            <li>Served as a teaching assistant for Numerical Methods in Marine Engineering and MIKE Zero software training.</li>
-                            <li>Served as a teaching assistant for Design of Conventional Marine Structures and GeoStudio/PLAXIS 3D software training.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-date">Apr. 2023 – Feb. 2024</div>
-                        <h3>Technical Expert, Civil Computing Laboratory</h3>
-                        <p class="timeline-company">Tarbiat Modares University, Iran</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-date">Ongoing</div>
-                        <h3>Ad Hoc Reviewer</h3>
-                        <p class="timeline-company"><strong>Elsevier:</strong> Water Research (IF:12.8, Q1); Acta Psychologica (IF:3.8, Q1)</p>
-                        <p class="timeline-company"><strong>Springer Nature:</strong> Scientific Reports (IF:4.9, Q1)</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Skills Section -->
-    <section id="skills" class="section">
-        <div class="container">
-            <h2 class="section-title">Skills</h2>
-            <div class="work-grid">
-                <div class="work-card" data-category="skills">
-                    <div class="work-image">
-                        <i class="fas fa-user-check"></i>
-                    </div>
-                    <div class="work-content">
-                        <h3>Personal Strengths</h3>
-                        <p>Excellent communication and interpersonal skills; leadership and teamwork abilities; strong organizational, time, and project management skills.</p>
-                    </div>
-                </div>
-                <div class="work-card" data-category="skills">
-                    <div class="work-image">
-                        <i class="fas fa-laptop-code"></i>
-                    </div>
-                    <div class="work-content">
-                        <h3>Specialized Software</h3>
-                        <p>UQLab, MIKE Zero, SAP2000, ArcGIS Pro, Google Earth Engine, Delft3D, CORMIX.</p>
-                    </div>
-                </div>
-                <div class="work-card" data-category="skills">
-                    <div class="work-image">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <div class="work-content">
-                        <h3>Programming Languages</h3>
-                        <p>MATLAB, Python, Fortran.</p>
-                    </div>
-                </div>
-                <div class="work-card" data-category="skills">
-                    <div class="work-image">
-                        <i class="fas fa-brain"></i>
-                    </div>
-                    <div class="work-content">
-                        <h3>Machine Learning</h3>
-                        <p>Supervised learning methods; tools include XGBoost and SVM; familiarity with deep learning frameworks.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Test Scores Section -->
-    <section id="test-scores" class="section">
-        <div class="container">
-            <h2 class="section-title">Test Scores</h2>
-            <div class="research-content">
-                <p><strong>TOEFL iBT</strong> — In progress (test scheduled)</p>
-                <p style="margin-left: 1.5rem; color: #666;">Reading, Listening, Writing, Speaking</p>
-            </div>
-        </div>
-    </section>
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <p>If you are interested in collaborating on research projects in coastal and ocean engineering, uncertainty quantification, or machine learning applications, have inquiries about my work, or would like to discuss professional/PhD opportunities, please feel free to reach out through any of the following channels:</p>
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <span>pouyazarbipour@gmail.com</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fab fa-linkedin"></i>
-                        <a href="https://www.linkedin.com/in/pouya-zarbipour" target="_blank" rel="noopener noreferrer">linkedin.com/in/pouya-zarbipour</a>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fab fa-github"></i>
-                        <a href="https://github.com/pouyazarbipour" target="_blank" rel="noopener noreferrer">github.com/pouyazarbipour</a>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>Sultan Qaboos University, Oman</span>
-                    </div>
-                </div>
-                <div class="contact-form">
-                    <form id="contact-form">
-                        <div class="form-group">
-                            <input type="text" placeholder="Your Name" name="user_name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" placeholder="Your Email" name="user_email" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea placeholder="Your Message" rows="5" name="message" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script>
-        console.log('Inline script test - HTML loaded');
-        console.log('EmailJS available:', typeof emailjs !== 'undefined');
-    </script>
-    <script>
-        console.log('About to load script.js...');
-    </script>
-    <script src="script.js"></script>
+    <div class="nav-actions">
+      <button class="icon-btn theme-toggle" type="button" aria-label="Toggle theme">◐</button>
+      <a class="btn btn-primary" href="mailto:pouyazarbipour@gmail.com">Get in touch</a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-label="Open menu">☰</button>
+    </div>
+  </div>
+</header>
+<main id="main">
+<section class="hero"><div class="container hero-grid">
+<div class="hero-copy">
+<div class="hero-kicker"><span class="dot"></span> Graduate Research Assistant · Sultan Qaboos University, Oman</div>
+<nav class="social-ribbon" aria-label="Professional and social profiles">
+<a href="https://github.com/pouyazarbipour" rel="noopener" target="_blank" aria-label="GitHub" title="GitHub"><i class="fab fa-github"></i></a>
+<a href="https://scholar.google.com/citations?user=V5aIzssAAAAJ&hl=en" rel="noopener" target="_blank" aria-label="Google Scholar" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+<a href="https://orcid.org/0000-0002-8024-9062" rel="noopener" target="_blank" aria-label="ORCID" title="ORCID"><i class="fab fa-orcid"></i></a>
+<a href="https://www.linkedin.com/in/pouya-zarbipour" rel="noopener" target="_blank" aria-label="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+<a href="https://www.researchgate.net/profile/Pouya-Zarbipour" rel="noopener" target="_blank" aria-label="ResearchGate" title="ResearchGate"><i class="fab fa-researchgate"></i></a>
+<a href="https://www.scopus.com/authid/detail.uri?authorId=59362450400" rel="noopener" target="_blank" aria-label="Scopus" title="Scopus"><i class="fas fa-book-open"></i></a>
+<a href="https://x.com/pouyazarbipour" rel="noopener" target="_blank" aria-label="X" title="X"><i class="fab fa-x-twitter"></i></a>
+</nav>
+<h1>Coastal engineering by training.<br><span class="accent">Uncertainty quantification by rigor.</span><br>Machine learning by curiosity.</h1>
+<p class="hero-sub">Uncertainty Quantification • Coastal &amp; Ocean Engineering • Machine Learning &amp; Deep Learning • Remote Sensing • Causal Inference • Hydrodynamics. I build reliability-based, causal-aware, and physics-informed models for coastal structures, desalination outfalls, wave overtopping, and marine water quality.</p>
+<div class="hero-actions"><a class="btn btn-primary" href="research.html">Explore research <span class="arrow">→</span></a><a class="btn btn-secondary" href="publications.html">View publications</a><a class="btn btn-secondary" href="assets/reports/CV%20-%20Pouya%20Zarbipour.pdf" rel="noopener" target="_blank">Download CV</a></div>
+<div class="hero-meta"><span><i></i> M.Sc. Civil Engineering (Coastal, Port &amp; Marine Structures)</span><span><i></i> Sultan Qaboos University, Oman</span><span><i></i> Reliability · UQ · ML/DL</span></div>
+</div>
+<div class="portrait-shell" aria-label="Portrait of Pouya Zarbipour"><div class="portrait-ring"></div><div class="portrait-card"><img src="assets/images/img1.jpeg" alt="Pouya Zarbipour" fetchpriority="high"></div></div>
+</div></section>
+<div class="container signal-strip"><div class="signal-grid">
+<div class="signal-intro"><small>Research footprint</small><strong>From reliability theory to causal, physics-informed learning.</strong></div>
+<div class="signal-item"><small>Journal articles</small><b>12</b><span>Published, under review &amp; in prep.</span></div>
+<div class="signal-item"><small>Conference papers</small><b>1</b><span>Blue Economy conference</span></div>
+<div class="signal-item"><small>Python tools</small><b>10+</b><span>Coastal &amp; water engineering</span></div>
+<div class="signal-item"><small>Reviewing</small><b>3</b><span>Journals (Elsevier, Springer Nature)</span></div>
+</div></div>
+<section class="section compact" id="about"><div class="container honors-layout">
+<div class="honors-sticky"><span class="eyebrow">About &amp; highlights</span><h2>Education, honors &amp; recognition</h2>
+<p>Currently a Graduate Research Assistant in Dr. Mohammad Reza Nikoo's lab at Sultan Qaboos University, Oman, implementing machine-learning and deep-learning techniques in ocean engineering and conducting uncertainty quantification in water engineering. Experience in reliability analysis, risk assessment, RBDO, causal inference, and AI-driven modeling of coastal and marine structures, alongside construction supervision at IRCEO.</p></div>
+<div class="timeline">
+<div class="timeline-item"><span class="when">Sep. 2021 – Feb. 2024</span><h3>M.Sc. in Civil Engineering (Coastal, Port, and Marine Structures)</h3><p>Tarbiat Modares University (TMU), Tehran, Iran · GPA: 15.03 (out of 20)</p><ul><li>Thesis: Probabilistic Evaluation of Effluent Discharge Performance in Desalination (Excellent grade, 19.25/20)</li><li>Supervisor: Dr. Hassan Akbari</li></ul></div>
+<div class="timeline-item"><span class="when">Sep. 2015 – Feb. 2020</span><h3>Associate's Degree and B.Sc. in Civil Engineering (Construction and Execution)</h3><p>Technical and Vocational University (TVU), Tehran, Iran · GPA: 14.94 (out of 20)</p></div>
+<div class="timeline-item"><span class="when">2024</span><h3>First-ranked graduate of the Marine Structures Department, Iran</h3><p>Awarded for M.Sc. thesis · Department ranked 102nd in the world for civil engineering according to US News.</p></div>
+<div class="timeline-item"><span class="when">Fall 2021</span><h3>Governmental Fellowship, Iran</h3><p>Awarded for M.Sc. studies · Tarbiat Modares University – ranked 6th in Iran according to US News.</p></div>
+<div class="timeline-item"><span class="when">Fall 2015</span><h3>Governmental Fellowship, Iran</h3><p>Awarded for Associate's Degree and B.Sc. studies · Technical and Vocational University</p></div>
+<div class="timeline-item"><span class="when">Ad hoc reviewer</span><h3>Reviewer for Elsevier and Springer Nature</h3><p>Water Research (IF: 12.8, Q1) · Acta Psychologica (IF: 3.8, Q1) · Scientific Reports (IF: 4.9, Q1)</p></div>
+</div></div></section>
+<section class="section"><div class="container">
+<div class="section-head"><div><span class="eyebrow">Research focus</span><h2>Engineering insight for reliable coastal and ocean systems.</h2></div>
+<p>My work spans probabilistic design, uncertainty, causal inference, and machine learning. The common thread is making coastal and water-engineering predictions more reliable, interpretable, and usable for design.</p></div>
+<div class="theme-grid">
+<article class="theme-card"><div class="theme-num">01</div><h3>Reliability &amp; uncertainty</h3><p>Reliability-based design optimization, time-dependent reliability, and Bayesian and probabilistic assessments of berm breakwaters and desalination outfalls.</p></article>
+<article class="theme-card"><div class="theme-num">02</div><h3>Machine &amp; deep learning</h3><p>XGBoost, quantum ML, physics-informed neural networks and operators, and graph neural networks for coastal and water engineering.</p></article>
+<article class="theme-card"><div class="theme-num">03</div><h3>Causal inference</h3><p>Causality-aware modeling for wave overtopping and harmful algal bloom prediction, linking explanation with prediction.</p></article>
+<article class="theme-card"><div class="theme-num">04</div><h3>Remote sensing &amp; hydrodynamics</h3><p>Satellite-driven chlorophyll-a prediction in semi-enclosed gulfs, wave fields, effluent dispersion, and extreme events.</p></article>
+</div></div></section>
+<section class="section compact"><div class="container">
+<div class="section-head"><div><span class="eyebrow">Selected work</span><h2>Featured research &amp; tools</h2></div><a class="btn btn-text" href="research.html">All research projects <span class="arrow">→</span></a></div>
+<article class="featured-project"><div class="featured-media"><i class="fas fa-atom" aria-hidden="true"></i></div>
+<div class="featured-copy"><span class="project-badge">Ocean Engineering · 2026</span><h3>Quantum machine learning for wave overtopping estimation</h3><p>Quantum machine learning (including a Quantum SVM) integrated with causal inference and uncertainty quantification for wave-overtopping estimation.</p><a class="project-link" href="https://doi.org/10.1016/j.oceaneng.2025.123482" rel="noopener" target="_blank">Read the paper <span class="arrow">→</span></a></div></article>
+<div class="project-grid">
+<article class="project-card"><div class="project-image"><i class="fas fa-chart-bar" aria-hidden="true"></i><span class="project-year">Ocean Engineering · 2026</span></div><div class="project-body"><span class="project-topic">Machine learning</span><h3>XGBoost–Optuna berm breakwater recession prediction</h3><p>A reliable machine-learning tool for berm breakwater recession with integrated uncertainty quantification and causal inference.</p><div class="project-links"><a class="project-link" href="https://doi.org/10.1016/j.oceaneng.2026.128234" rel="noopener" target="_blank">Paper <span class="arrow">→</span></a><a class="project-link" href="https://github.com/Pouyazarbipour/The-XG-Boost-Berm-Breakwater-Recession-Prediction-tools" rel="noopener" target="_blank">Code <span class="arrow">→</span></a></div></div></article>
+<article class="project-card"><div class="project-image"><i class="fas fa-water" aria-hidden="true"></i><span class="project-year">Water Research · 2026</span></div><div class="project-body"><span class="project-topic">Causal deep learning</span><h3>Causality and deep learning for harmful algal blooms</h3><p>Bridging causality and deep learning for harmful algal bloom prediction.</p><div class="project-links"><a class="project-link" href="https://doi.org/10.1016/j.watres.2026.125492" rel="noopener" target="_blank">Paper <span class="arrow">→</span></a></div></div></article>
+<article class="project-card"><div class="project-image"><i class="fas fa-satellite" aria-hidden="true"></i><span class="project-year">Scientific Reports · 2026</span></div><div class="project-body"><span class="project-topic">Remote sensing</span><h3>Graph neural network–transformer for chlorophyll-a</h3><p>Spatiotemporal chlorophyll-a prediction in semi-enclosed gulfs from satellite data and causal analysis.</p><div class="project-links"><a class="project-link" href="https://doi.org/10.1038/s41598-026-42388-0" rel="noopener" target="_blank">Paper <span class="arrow">→</span></a></div></div></article>
+<article class="project-card"><div class="project-image"><i class="fas fa-shield-alt" aria-hidden="true"></i><span class="project-year">Ocean Engineering · 2024</span></div><div class="project-body"><span class="project-topic">Reliability &amp; UQ</span><h3>Reliability design of desalination outfalls</h3><p>A novel probabilistic environmental assessment for the reliability design of seawater desalination outfalls (M.Sc. thesis work).</p><div class="project-links"><a class="project-link" href="https://doi.org/10.1016/j.oceaneng.2024.119465" rel="noopener" target="_blank">Paper <span class="arrow">→</span></a></div></div></article>
+<article class="project-card"><div class="project-image"><i class="fas fa-mountain" aria-hidden="true"></i><span class="project-year">Ocean Engineering · 2026</span></div><div class="project-body"><span class="project-topic">Reliability &amp; UQ</span><h3>Bayesian reliability design of reshaping berm breakwaters</h3><p>Reliability design of reshaping berm breakwaters based on a Bayesian modification.</p><div class="project-links"><a class="project-link" href="https://doi.org/10.1016/j.oceaneng.2026.124594" rel="noopener" target="_blank">Paper <span class="arrow">→</span></a></div></div></article>
+<article class="project-card"><div class="project-image"><i class="fas fa-tools" aria-hidden="true"></i><span class="project-year">Dec. 2021 – Present</span></div><div class="project-body"><span class="project-topic">Software</span><h3>Coastal engineering Python tool suite</h3><p>More than 10 Python tools: sediment transport estimators, breakwater design calculators, and coastal structure performance evaluators.</p><div class="project-links"><a class="project-link" href="https://github.com/Pouyazarbipour?tab=repositories&q=&type=&language=&sort=" rel="noopener" target="_blank">GitHub <span class="arrow">→</span></a><a class="project-link" href="https://github.com/Pouyazarbipour/The-Causal-Physics-Informed-UQ-Overtopping-Prediction-Tool" rel="noopener" target="_blank">Causal-PINN-UQ <span class="arrow">→</span></a></div></div></article>
+</div></div></section>
+<section class="section compact"><div class="container impact-band">
+<div><span class="eyebrow" style="color:#9adbe1">Presentations &amp; conferences</span><h2>Research shared beyond the paper.</h2><p>Conference talks, thesis defense, and ongoing research seminars on reliability-based design of berm breakwaters, quantum ML in ocean engineering, and causal inference in coastal systems at Tarbiat Modares University, Sultan Qaboos University, and international forums. See LinkedIn and Google Scholar for updates.</p></div>
+<div class="impact-list">
+<div class="impact-pill"><strong>1st International Conference on Blue Economy · 2024</strong><span>Assessment of the Spread of Desalination Plant Effluent: Saqi Koothar Desalination Plant, Bandar Abbas · <a href="https://en.civilica.com/doc/1994723" rel="noopener" target="_blank" style="color:#9adbe1">conference paper</a></span></div>
+<div class="impact-pill"><strong>M.Sc. thesis defense · Feb. 2024</strong><span>Probabilistic Evaluation of Effluent Discharge Performance in Desalination, Tarbiat Modares University (Excellent grade, 19.25/20)</span></div>
+<div class="impact-pill"><strong>Research seminars</strong><span>Reliability of berm breakwaters, quantum ML, and causal inference in coastal systems</span></div>
+<div class="impact-pill"><strong>Open research tools</strong><span>Code and reproducible workflows on GitHub</span></div>
+</div></div></section>
+<section class="section compact"><div class="container">
+<div class="section-head"><div><span class="eyebrow">Experience</span><h2>Professional &amp; teaching experience.</h2></div></div>
+<div class="timeline">
+<div class="timeline-item"><span class="when">Jun. 2025 – Present</span><h3>Graduate Research Assistant (under supervision of Dr. Nikoo)</h3><p>Sultan Qaboos University, Oman</p><ul><li>Developing and implementing advanced machine learning and deep learning models for ocean and water engineering applications, with a focus on predictive modeling and design decision-making.</li><li>Conducted uncertainty quantification in water engineering.</li></ul></div>
+<div class="timeline-item"><span class="when">May. 2024 – Present</span><h3>Supervisor and Executive Engineer</h3><p>Iran Construction Engineering Organization (IRCEO), Iran</p><ul><li>Supervised construction of building structures in compliance with Iran's national building regulations.</li></ul></div>
+<div class="timeline-item"><span class="when">Sep. 2022 – Jun. 2025</span><h3>Graduate Teaching and Research Assistant (under Prof. Shafieefar and Dr. Akbari)</h3><p>Tarbiat Modares University and Coastal Hyd Lab, Iran</p><ul><li>Performing probabilistic and uncertainty quantification analyses in ocean and coastal engineering systems, supporting reliability-informed design and risk assessment.</li><li>Preparing research manuscripts and conference contributions on ML/DL-based modeling, causal inference, and uncertainty quantification in ocean and coastal engineering.</li><li>Introduced a new Reliability-Based Design Optimization (RBDO) approach for berm breakwaters with required performance.</li><li>Applied machine learning to predict berm breakwater recession with high accuracy.</li><li>Analyzed time-dependent reliability in coastal structures, particularly breakwaters.</li><li>Teaching Assistant – Numerical Methods in Marine Engineering: guided students in numerical implementation of coastal and ocean engineering problems and supported assignments/projects.</li><li>Teaching Assistant – Design of Conventional Marine Structures: assisted in course delivery and led hands-on training sessions in GeoStudio, PLAXIS 3D, and MIKE Zero for analysis and design of coastal and geotechnical systems.</li></ul></div>
+<div class="timeline-item"><span class="when">Apr. 2023 – Feb. 2024</span><h3>Technical Expert, Civil Computing Laboratory</h3><p>Tarbiat Modares University, Iran</p></div>
+<div class="timeline-item"><span class="when">Ongoing</span><h3>Ad Hoc Reviewer</h3><p><strong>Elsevier:</strong> Water Research (IF: 12.8, Q1); Acta Psychologica (IF: 3.8, Q1) · <strong>Springer Nature:</strong> Scientific Reports (IF: 4.9, Q1)</p></div>
+</div></div></section>
+<section class="section compact"><div class="container">
+<div class="section-head"><div><span class="eyebrow">Skills</span><h2>Tools &amp; strengths.</h2></div></div>
+<div class="theme-grid">
+<article class="theme-card"><div class="theme-num">01</div><h3>Personal strengths</h3><p>Excellent communication and interpersonal skills; leadership and teamwork abilities; strong organizational, time, and project management skills.</p></article>
+<article class="theme-card"><div class="theme-num">02</div><h3>Specialized software</h3><p>UQLab, MIKE Zero, SAP2000, ArcGIS Pro, Google Earth Engine, Delft3D, CORMIX. Also GeoStudio and PLAXIS 3D.</p></article>
+<article class="theme-card"><div class="theme-num">03</div><h3>Programming languages</h3><p>MATLAB, Python, Fortran.</p></article>
+<article class="theme-card"><div class="theme-num">04</div><h3>Machine learning</h3><p>Supervised learning methods; tools include XGBoost and SVM; familiarity with deep learning frameworks.</p></article>
+</div>
+<div class="timeline" style="margin-top:20px"><div class="timeline-item"><span class="when">Test scores</span><h3>TOEFL iBT</h3><p>In progress (test scheduled) · Reading, Listening, Writing, Speaking</p></div></div>
+</div></section>
+<section class="section compact"><div class="container">
+<div class="section-head"><div><span class="eyebrow">Selected publications</span><h2>Recent contributions.</h2></div><a class="btn btn-text" href="publications.html">Full publication list <span class="arrow">→</span></a></div>
+<div class="pub-list">
+<article class="pub-item"><div class="pub-year">2026</div><div><h3>A Reliable Machine Learning Tool for Berm Breakwater Recession Prediction</h3><div class="pub-meta"><span class="pub-venue">Ocean Engineering</span> · <span class="pub-badges"><span class="pub-badge first">First author</span></span> <span class="pub-authors">Zarbipour, Jamali Rovesht, Akbari &amp; Shafieefar</span></div></div><div class="pub-action"><a href="https://doi.org/10.1016/j.oceaneng.2026.128234" rel="noopener" target="_blank">DOI ↗</a></div></article>
+<article class="pub-item"><div class="pub-year">2026</div><div><h3>Bridging Causality and Deep Learning for Harmful Algal Bloom Prediction</h3><div class="pub-meta"><span class="pub-venue">Water Research, 125492</span> · <span class="pub-badges"><span class="pub-badge first">First author</span></span> <span class="pub-authors">Zarbipour, Nikoo, Akbari, Nazari &amp; Karimi</span></div></div><div class="pub-action"><a href="https://doi.org/10.1016/j.watres.2026.125492" rel="noopener" target="_blank">DOI ↗</a></div></article>
+<article class="pub-item"><div class="pub-year">2026</div><div><h3>Spatiotemporal prediction of chlorophyll-a in semi-enclosed gulfs using a hybrid graph neural network-transformer framework with satellite data and causal analysis</h3><div class="pub-meta"><span class="pub-venue">Scientific Reports</span> · <span class="pub-badges"><span class="pub-badge first">First author</span></span> <span class="pub-authors">Zarbipour, Akbari, Nikoo &amp; Kazemi</span></div></div><div class="pub-action"><a href="https://doi.org/10.1038/s41598-026-42388-0" rel="noopener" target="_blank">DOI ↗</a></div></article>
+<article class="pub-item"><div class="pub-year">2026</div><div><h3>Reliability design of reshaping berm breakwaters based on a Bayesian modification</h3><div class="pub-meta"><span class="pub-venue">Ocean Engineering</span> · <span class="pub-badges"><span class="pub-badge first">First author</span></span> <span class="pub-authors">Zarbipour, Jamali Rovesht, Akbari &amp; Shafieefar</span></div></div><div class="pub-action"><a href="https://doi.org/10.1016/j.oceaneng.2026.124594" rel="noopener" target="_blank">DOI ↗</a></div></article>
+<article class="pub-item"><div class="pub-year">2026</div><div><h3>Quantum machine learning for wave overtopping estimation: Integrating with causal inference and uncertainty quantification</h3><div class="pub-meta"><span class="pub-venue">Ocean Engineering, 343, 123482</span> · <span class="pub-badges"><span class="pub-badge first">First author</span></span> <span class="pub-authors">Zarbipour, Akbari &amp; Nikoo</span></div></div><div class="pub-action"><a href="https://doi.org/10.1016/j.oceaneng.2025.123482" rel="noopener" target="_blank">DOI ↗</a></div></article>
+</div></div></section>
+<section class="section" id="contact"><div class="container contact-card">
+<div><span class="eyebrow">Contact</span><h2>Research, collaboration, or PhD opportunities?</h2><p>If you are interested in collaborating on research in coastal and ocean engineering, uncertainty quantification, or machine-learning applications, have questions about my work, or would like to discuss professional or PhD opportunities, please reach out.</p>
+<div class="social-row"><a href="https://github.com/pouyazarbipour" rel="noopener" target="_blank">GitHub</a><a href="https://scholar.google.com/citations?user=V5aIzssAAAAJ&hl=en" rel="noopener" target="_blank">Google Scholar</a><a href="https://orcid.org/0000-0002-8024-9062" rel="noopener" target="_blank">ORCID</a><a href="https://www.linkedin.com/in/pouya-zarbipour" rel="noopener" target="_blank">LinkedIn</a><a href="https://www.researchgate.net/profile/Pouya-Zarbipour" rel="noopener" target="_blank">ResearchGate</a><a href="https://www.scopus.com/authid/detail.uri?authorId=59362450400" rel="noopener" target="_blank">Scopus</a><a href="https://x.com/pouyazarbipour" rel="noopener" target="_blank">X</a></div>
+<form id="contact-form" class="contact-form"><input type="text" placeholder="Your Name" name="user_name" required><input type="email" placeholder="Your Email" name="user_email" required><textarea placeholder="Your Message" rows="5" name="message" required></textarea><button type="submit" class="btn btn-primary">Send Message</button></form></div>
+<div class="contact-details"><div class="contact-detail"><small>Position</small><strong>Graduate Research Assistant</strong></div><div class="contact-detail"><small>Affiliation</small><strong>Sultan Qaboos University, Oman</strong></div><div class="contact-detail"><small>Also</small><strong>Supervisor &amp; Executive Engineer · IRCEO, Iran</strong></div><div class="contact-detail"><small>Email</small><a href="mailto:pouyazarbipour@gmail.com">pouyazarbipour@gmail.com</a></div></div>
+</div></section>
+</main>
+<footer><div class="container footer-inner"><span>© <span data-year></span> Pouya Zarbipour</span><span>Coastal engineering · uncertainty quantification · machine learning</span></div></footer>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script src="site.js"></script>
 </body>
 </html>
