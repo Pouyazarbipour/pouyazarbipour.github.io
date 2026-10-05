@@ -111,6 +111,17 @@
  },
  {
   "type": "journal",
+  "year": "2026",
+  "title": "Physics-informed neural operator surrogate with uncertainty quantification for spatial prediction of coastal wave fields",
+  "venue": "Applied Soft Computing",
+  "authors": "Etri, Rovesht, Nikoo & Zarbipour",
+  "doi": "https://doi.org/10.1016/j.asoc.2026.116571",
+  "status": "published",
+  "cats": "",
+  "first": false
+ },
+ {
+  "type": "journal",
   "year": "2025",
   "title": "Reliability Analysis of Berm Breakwaters based on the environmental data on the Northern coasts of Oman sea",
   "venue": "International Journal of Coastal, Offshore and Environmental Engineering, e248038",
