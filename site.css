@@ -127,4 +127,5 @@ footer{background:var(--deep);color:#9fc4cb;padding:26px 0;font-size:.88rem}foot
 .nav{display:none;position:absolute;left:0;right:0;top:68px;background:var(--deep);flex-direction:column;padding:12px 4%}.nav.open{display:flex}.menu-btn{display:block}
 .portrait-shell{order:-1;width:240px}}
 @media(max-width:620px){.theme-grid,.project-grid,.teaching-grid{grid-template-columns:1fr}.pub-item{grid-template-columns:1fr;gap:6px}.section{padding:56px 0}.impact-band,.contact-card{padding:26px}}
-.site-header,.site-header .brand,.site-header .nav a,.site-header .btn,.site-header button{font-family:'Times New Roman',Times,serif}
+.site-header .brand,.site-header .nav a{font-family:'DM Serif Display',Georgia,serif;font-weight:400}
+.site-header .brand-name{font-size:1.15rem}.site-header .nav a{font-size:1rem}
