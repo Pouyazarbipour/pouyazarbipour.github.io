@@ -56,20 +56,42 @@ def crossref(doi):
         "first": bool(authors) and authors[0].lower() == FAMILY,
     }
 
+def norm_doi(v):
+    return re.sub(r"^https?://(dx\.)?doi\.org/", "", (v or "").strip().lower())
+
+def words(t):
+    return set(re.findall(r"[a-z0-9]{3,}", t.lower()))
+
+def similar(a, b):
+    wa, wb = words(a), words(b)
+    return bool(wa and wb) and len(wa & wb) / len(wa | wb) >= 0.6
+
 def update_publications():
-    manual = json.load(open("data/publications-manual.json"))
-    known = {p["doi"].split("doi.org/")[-1].lower() for p in manual if p.get("doi")}
-    for doi in orcid_dois():
-        if doi in known:
+    pubs = json.load(open("data/publications-manual.json"))
+    for doi in dict.fromkeys(orcid_dois()):
+        doi = norm_doi(doi)
+        if any(norm_doi(p.get("doi")) == doi for p in pubs):
             continue
         try:
-            manual.append(crossref(doi))
-            print("added from ORCID:", doi)
+            new = crossref(doi)
         except Exception as e:
             print("skip", doi, e)
-    manual.sort(key=lambda p: p.get("year", ""), reverse=True)
-    json.dump(manual, open("data/publications.json", "w"), indent=1, ensure_ascii=False)
-    print("publications:", len(manual))
+            continue
+        twin = next((p for p in pubs if similar(p["title"], new["title"])), None)
+        if twin is None:
+            pubs.append(new)
+            print("added from ORCID:", doi)
+        elif not twin.get("doi"):
+            # curated entry without a DOI (under review / in preparation) is now published
+            for k in ("doi", "venue", "year", "title"):
+                twin[k] = new[k]
+            twin["status"] = "published"
+            print("published, merged into curated entry:", doi)
+        else:
+            print("duplicate of existing entry, skipped:", doi)
+    pubs.sort(key=lambda p: p.get("year", ""), reverse=True)
+    json.dump(pubs, open("data/publications.json", "w"), indent=1, ensure_ascii=False)
+    print("publications:", len(pubs))
 
 ok = True
 for fn in (update_stats, update_publications):
