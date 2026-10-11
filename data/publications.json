@@ -68,56 +68,12 @@
  {
   "type": "journal",
   "year": "2026",
-  "title": "Physics-informed neural operator with uncertainty quantification for spatial reconstruction of SWAN wave fields",
-  "venue": "Applied Soft Computing Journal",
-  "authors": "Etri, Jamali Rovesht, Nikoo & Zarbipour",
-  "doi": null,
-  "status": "",
-  "cats": "ml coastal",
-  "first": false
- },
- {
-  "type": "journal",
-  "year": "2026",
-  "title": "Causal-Aware Physics-Informed Neural Surrogate with Aleatoric and Epistemic Uncertainty for Wave Overtopping Prediction",
-  "venue": "Engineering Applications of Artificial Intelligence",
-  "authors": "Zarbipour, Jamali Rovesht & Nikoo",
-  "doi": null,
-  "status": "",
-  "cats": "ml causal coastal",
-  "first": true
- },
- {
-  "type": "journal",
-  "year": "2026",
-  "title": "Nature Based Retrofit Solutions for Existing Berm Breakwaters: Reliability Assessment under Climate Change Impacts",
-  "venue": "Applied Ocean Research",
-  "authors": "Jamali Rovesht, Zarbipour, Akbari & Shafieefar",
-  "doi": null,
-  "status": "review",
-  "cats": "reliability coastal",
-  "first": false
- },
- {
-  "type": "journal",
-  "year": "2026",
-  "title": "Reliability-Based Design Optimization of Berm Breakwaters with Different Reshaping and Dependency Structures",
-  "venue": "Manuscript in preparation",
-  "authors": "Zarbipour & Akbari",
-  "doi": null,
-  "status": "prep",
-  "cats": "reliability coastal",
-  "first": true
- },
- {
-  "type": "journal",
-  "year": "2026",
   "title": "Physics-informed neural operator surrogate with uncertainty quantification for spatial prediction of coastal wave fields",
   "venue": "Applied Soft Computing",
   "authors": "Etri, Rovesht, Nikoo & Zarbipour",
   "doi": "https://doi.org/10.1016/j.asoc.2026.116571",
   "status": "published",
-  "cats": "",
+  "cats": "ml coastal",
   "first": false
  },
  {
